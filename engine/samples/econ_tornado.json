@@ -1,0 +1,20 @@
+{
+  "name_zh": "NPV 敏感性龙卷风图",
+  "name_en": "NPV sensitivity tornado",
+  "domain": "economics",
+  "description_zh": "7 项假设对项目 NPV 的低/高情形影响（USD 百万），适合双向水平条与排序。",
+  "description_en": "Low/high NPV impacts of seven assumptions (USD millions) for sorted two-sided horizontal bars.",
+  "mapping": {
+    "x": "variable",
+    "low": "low",
+    "high": "high"
+  },
+  "recommended": [
+    {
+      "kind": "tornado",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}

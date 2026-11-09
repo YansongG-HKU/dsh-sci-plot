@@ -1,0 +1,19 @@
+group,predicted,observed,se
+Development cohort,0.05,0.0388,0.0108
+Development cohort,0.15,0.195,0.0221
+Development cohort,0.25,0.233,0.0236
+Development cohort,0.35,0.302,0.0257
+Development cohort,0.45,0.43,0.0277
+Development cohort,0.55,0.532,0.0279
+Development cohort,0.65,0.634,0.0269
+Development cohort,0.75,0.738,0.0246
+Development cohort,0.85,0.797,0.0225
+Validation cohort,0.05,0.0598,0.0164
+Validation cohort,0.15,0.144,0.0242
+Validation cohort,0.25,0.197,0.0275
+Validation cohort,0.35,0.267,0.0305
+Validation cohort,0.45,0.412,0.034
+Validation cohort,0.55,0.473,0.0345
+Validation cohort,0.65,0.576,0.0341
+Validation cohort,0.75,0.637,0.0332
+Validation cohort,0.85,0.71,0.0313

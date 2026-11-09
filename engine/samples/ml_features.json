@@ -1,0 +1,23 @@
+{
+  "name_zh": "置换特征重要性",
+  "name_en": "Permutation feature importance",
+  "domain": "ml",
+  "description_zh": "10 个病理特征的置换重要性及 95% bootstrap 置信区间。",
+  "description_en": "Permutation importance of ten pathology features with 95% bootstrap intervals.",
+  "mapping": {
+    "x": "feature",
+    "y": "importance",
+    "low": "ci_low",
+    "high": "ci_high"
+  },
+  "recommended": [
+    {
+      "kind": "feature_importance",
+      "style": {
+        "domain": "ml",
+        "journal": "neurips"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "dsh-sci-plot",
+  "version": "1.2.0",
+  "private": true,
+  "description": "科研绘图（Scientific Plot）：顶刊级科研图表工作室——12 大学科与 16 种期刊风格、70+ 图种、色盲安全配色、矢量导出与投稿就绪度质检，面板与 Agent 工具一体。",
+  "license": "MIT",
+  "author": "YansongG-HKU",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "engine",
+    "client.js",
+    "locale",
+    "cordis.patch.yml",
+    "icon.svg",
+    "assets",
+    "docs",
+    "scripts",
+    "src",
+    "test",
+    "tests",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build:client": "node scripts/build-client.mjs",
+    "check": "node --check index.js && node scripts/build-client.mjs --check && node --check client.js",
+    "test": "node --test test/unit/*.test.mjs",
+    "test:engine": "python -m sciplot.cli selftest",
+    "gallery": "python -m sciplot.cli gallery --catalog engine/demo_catalog.json --out-dir assets/gallery"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "scientific-plotting",
+    "matplotlib",
+    "publication",
+    "figure",
+    "科研绘图",
+    "journal-style"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YansongG-HKU/dsh-sci-plot.git"
+  },
+  "homepage": "https://github.com/YansongG-HKU/dsh-sci-plot#readme",
+  "bugs": {
+    "url": "https://github.com/YansongG-HKU/dsh-sci-plot/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "manifestVersion": 1
+    }
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.2-rc.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name_zh": "FTIR 多光谱叠加",
+  "name_en": "Overlaid FTIR spectra",
+  "domain": "chemistry",
+  "description_zh": "PMMA / PS / PVA 三片薄膜的 FTIR 吸收谱（4000–400 cm$^{-1}$），适合多曲线叠加与峰位标注。",
+  "description_en": "FTIR absorbance of PMMA / PS / PVA films, 4000-400 cm-1, for overlaid spectra with peak labels.",
+  "mapping": {
+    "x": "wavenumber",
+    "y": "absorbance",
+    "group": "sample"
+  },
+  "recommended": [
+    {
+      "kind": "spectra",
+      "style": {
+        "domain": "chemistry",
+        "journal": "acs"
+      }
+    },
+    {
+      "kind": "line",
+      "style": {
+        "domain": "chemistry"
+      }
+    }
+  ]
+}

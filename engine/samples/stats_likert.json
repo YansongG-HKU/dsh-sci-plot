@@ -1,0 +1,20 @@
+{
+  "name_zh": "Likert 五级量表",
+  "name_en": "Five-point Likert survey",
+  "domain": "social",
+  "description_zh": "临床医生对 AI 辅助诊断的六条态度陈述，五级同意度计数（每行 n = 512）。",
+  "description_en": "Six clinician attitude items on AI-assisted diagnosis with five agreement levels (n = 512 per item).",
+  "mapping": {
+    "label": "statement"
+  },
+  "recommended": [
+    {
+      "kind": "likert",
+      "style": {
+        "domain": "social",
+        "journal": "apa"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

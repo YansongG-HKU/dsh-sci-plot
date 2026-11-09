@@ -1,0 +1,22 @@
+{
+  "name_zh": "四分类混淆矩阵",
+  "name_en": "Four-class confusion matrix",
+  "domain": "ml",
+  "description_zh": "组织病理四分类模型在 800 例测试集上的混淆计数（行=真实，列=预测）。",
+  "description_en": "Confusion counts of a four-class histopathology model on 800 test cases (rows = truth).",
+  "mapping": {
+    "row": "true_label",
+    "col": "predicted_label",
+    "value": "count"
+  },
+  "recommended": [
+    {
+      "kind": "confusion_matrix",
+      "style": {
+        "domain": "ml",
+        "journal": "neurips"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

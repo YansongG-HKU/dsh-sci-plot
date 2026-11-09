@@ -1,0 +1,21 @@
+{
+  "name_zh": "MA 图数据",
+  "name_en": "MA plot data",
+  "domain": "omics",
+  "description_zh": "650 个基因的平均表达强度与 log2 倍数变化，用于 MA 图。",
+  "description_en": "Mean expression versus log2 fold change for 650 genes (MA plot).",
+  "mapping": {
+    "x": "base_mean",
+    "y": "log2fc",
+    "label": "gene"
+  },
+  "recommended": [
+    {
+      "kind": "ma",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

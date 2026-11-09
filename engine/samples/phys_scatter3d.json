@@ -1,0 +1,22 @@
+{
+  "name_zh": "3D 分组散点：粒径–电位–摄取率",
+  "name_en": "3-D grouped scatter: size / zeta / uptake",
+  "domain": "physics",
+  "description_zh": "3 组纳米颗粒的粒径（nm）、Zeta 电位（mV）与摄取速率（h$^{-1}$），适合 3D 分组散点。",
+  "description_en": "Three groups of nanoparticles with size (nm), zeta potential (mV) and uptake rate (1/h) for 3-D grouped scatters.",
+  "mapping": {
+    "group": "group",
+    "x": "size_nm",
+    "y": "zeta_mv",
+    "z": "uptake_rate"
+  },
+  "recommended": [
+    {
+      "kind": "scatter3d",
+      "style": {
+        "domain": "physics",
+        "journal": "aps"
+      }
+    }
+  ]
+}

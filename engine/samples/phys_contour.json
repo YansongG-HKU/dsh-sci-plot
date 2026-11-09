@@ -1,0 +1,28 @@
+{
+  "name_zh": "二维势能面 / 场分布",
+  "name_en": "2-D potential-energy surface",
+  "domain": "materials",
+  "description_zh": "51×33 的二维能量场（eV），适合填充等高线、色标与 3D 曲面。",
+  "description_en": "A 51x33 two-dimensional energy field (eV) for filled contours, colour bars and 3-D surfaces.",
+  "mapping": {
+    "x": "x",
+    "y": "y",
+    "z": "z"
+  },
+  "recommended": [
+    {
+      "kind": "contour",
+      "style": {
+        "domain": "materials",
+        "journal": "acs"
+      }
+    },
+    {
+      "kind": "surface3d",
+      "style": {
+        "domain": "materials",
+        "journal": "acs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+pathway,es,p
+IFN-gamma response,2.42,8e-06
+Inflammatory response,2.11,0.0004
+IL-6/JAK/STAT3 signaling,1.83,0.0081
+Antigen processing,1.52,0.0231
+Complement,1.21,0.0912
+EMT,-1.58,0.0042
+OXPHOS,-1.87,0.0006
+Glycolysis,-2.21,2.1e-05
+MYC targets,-1.41,0.0312
+Apoptosis,-1.12,0.1203
+DNA repair,-1.01,0.3521
+Cell cycle,-1.72,0.0022

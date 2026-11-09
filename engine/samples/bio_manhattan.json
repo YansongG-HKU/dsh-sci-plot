@@ -1,0 +1,22 @@
+{
+  "name_zh": "GWAS 曼哈顿图数据",
+  "name_en": "GWAS Manhattan data",
+  "domain": "omics",
+  "description_zh": "22 条常染色体上约 1500 个 SNP 的 -log10 P，含 3 个显著信号峰。",
+  "description_en": "About 1,500 SNPs across 22 autosomes with three genome-wide significant peaks.",
+  "mapping": {
+    "x": "pos",
+    "y": "neglog10_p",
+    "label": "snp",
+    "chr": "chr"
+  },
+  "recommended": [
+    {
+      "kind": "manhattan",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

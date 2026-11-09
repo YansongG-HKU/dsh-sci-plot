@@ -1,0 +1,22 @@
+{
+  "name_zh": "校准曲线数据",
+  "name_en": "Calibration curve data",
+  "domain": "clinical",
+  "description_zh": "开发队列与验证队列的预测概率、观察比例与标准误（分箱，n=320/210）。",
+  "description_en": "Predicted probabilities, observed proportions and standard errors for development and validation cohorts.",
+  "mapping": {
+    "x": "predicted",
+    "y": "observed",
+    "yerr": "se",
+    "group": "group"
+  },
+  "recommended": [
+    {
+      "kind": "calibration",
+      "style": {
+        "domain": "clinical"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

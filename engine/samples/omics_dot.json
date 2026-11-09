@@ -1,0 +1,23 @@
+{
+  "name_zh": "标志基因点图（表达比例 × 平均表达）",
+  "name_en": "Dot plot of marker genes (fraction x mean expression)",
+  "domain": "omics",
+  "description_zh": "12 个标志基因在 6 个细胞簇中的阳性比例与平均表达，用于双编码点图。",
+  "description_en": "Detection fraction and mean expression of 12 marker genes across six cell clusters.",
+  "mapping": {
+    "x": "cluster",
+    "y": "gene",
+    "size": "fraction",
+    "value": "mean_expression"
+  },
+  "recommended": [
+    {
+      "kind": "dot_plot",
+      "style": {
+        "domain": "omics",
+        "journal": "cell"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

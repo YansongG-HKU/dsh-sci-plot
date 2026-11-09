@@ -1,0 +1,21 @@
+{
+  "name_zh": "TGA / DSC 联用热分析",
+  "name_en": "TGA / DSC thermal analysis",
+  "domain": "chemistry",
+  "description_zh": "30–900 °C 的失重曲线与热流曲线（吸热峰），适合双 y 轴与分解温度标注。",
+  "description_en": "Weight-loss and heat-flow curves from 30 to 900 C for dual-axis thermal analysis with decomposition temperatures.",
+  "mapping": {
+    "x": "temperature",
+    "y": "weight_pct",
+    "y2": "heat_flow"
+  },
+  "recommended": [
+    {
+      "kind": "tga",
+      "style": {
+        "domain": "chemistry",
+        "journal": "acs"
+      }
+    }
+  ]
+}

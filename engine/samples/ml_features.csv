@@ -1,0 +1,11 @@
+feature,importance,ci_low,ci_high
+Tumour size,0.2160,0.1870,0.2440
+Mitotic count,0.1710,0.1490,0.1940
+Lymph node ratio,0.1430,0.1210,0.1660
+Necrosis fraction,0.1120,0.0910,0.1340
+Ki-67 index,0.0890,0.0710,0.1080
+Vascular invasion,0.0680,0.0510,0.0860
+Patient age,0.0510,0.0370,0.0660
+Margin status,0.0420,0.0290,0.0560
+Tumour grade,0.0300,0.0190,0.0420
+Hormone receptor,0.0210,0.0120,0.0310

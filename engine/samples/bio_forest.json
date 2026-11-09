@@ -1,0 +1,24 @@
+{
+  "name_zh": "森林图（HR 合并分析）",
+  "name_en": "Forest plot (pooled hazard ratios)",
+  "domain": "clinical",
+  "description_zh": "8 项免疫联合治疗研究的 PFS 风险比、95% CI 与权重，附合并效应行。",
+  "description_en": "PFS hazard ratios, 95% CI and weights for eight immuno-oncology studies plus a pooled row.",
+  "mapping": {
+    "label": "study",
+    "x": "estimate",
+    "ci_low": "ci_low",
+    "ci_high": "ci_high",
+    "size": "weight"
+  },
+  "recommended": [
+    {
+      "kind": "forest",
+      "style": {
+        "domain": "clinical",
+        "journal": "lancet"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

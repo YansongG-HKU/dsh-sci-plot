@@ -1,0 +1,20 @@
+{
+  "name_zh": "风向–风速观测（16 方位）",
+  "name_en": "Wind direction / speed observations",
+  "domain": "earth",
+  "description_zh": "640 条地面风观测（方位 0–360°、风速 m s$^{-1}$），适合风玫瑰与极坐标频率统计。",
+  "description_en": "640 surface wind observations (azimuth 0-360 deg, speed m/s) for wind roses and directional statistics.",
+  "mapping": {
+    "x": "direction_deg",
+    "y": "speed_ms"
+  },
+  "recommended": [
+    {
+      "kind": "windrose",
+      "style": {
+        "domain": "earth",
+        "journal": "agu"
+      }
+    }
+  ]
+}

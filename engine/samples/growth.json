@@ -1,0 +1,27 @@
+{
+  "name_zh": "细菌生长曲线",
+  "name_en": "Bacterial growth curves",
+  "domain": "life-science",
+  "description_zh": "三种条件在 48 h 内的光密度生长曲线，适合折线/面积/回归类图。",
+  "description_en": "OD600 growth over 48 h under three conditions; good for line, area and regression charts.",
+  "mapping": {
+    "x": "time_h",
+    "y": "od600",
+    "group": "condition"
+  },
+  "recommended": [
+    {
+      "kind": "line",
+      "style": {
+        "domain": "life-science",
+        "journal": "nature"
+      }
+    },
+    {
+      "kind": "area",
+      "style": {
+        "domain": "life-science"
+      }
+    }
+  ]
+}

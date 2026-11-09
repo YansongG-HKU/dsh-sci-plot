@@ -1,0 +1,27 @@
+{
+  "name_zh": "增长与置信区间时间序列",
+  "name_en": "Growth time series with CI",
+  "domain": "economics",
+  "description_zh": "60 个月的增长率及置信带，适合时间序列、置信带、扇形图。",
+  "description_en": "60 months of growth with confidence bands for time-series, band and fan charts.",
+  "mapping": {
+    "x": "month",
+    "y": "gdp_growth_pct",
+    "y_lower": "ci_low",
+    "y_upper": "ci_high"
+  },
+  "recommended": [
+    {
+      "kind": "time_series",
+      "style": {
+        "domain": "economics"
+      }
+    },
+    {
+      "kind": "fan_chart",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}

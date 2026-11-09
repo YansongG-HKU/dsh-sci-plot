@@ -1,0 +1,21 @@
+{
+  "name_zh": "循环伏安曲线（3 圈）",
+  "name_en": "Cyclic voltammetry, 3 cycles",
+  "domain": "chemistry",
+  "description_zh": "可逆氧化还原对的 3 圈 CV（0–1.2 V），含电容基线与峰位偏移，适合回线与扫描方向标注。",
+  "description_en": "Three-cycle CV of a quasi-reversible redox couple (0-1.2 V) with capacitive baseline, for loop and scan-direction annotation.",
+  "mapping": {
+    "x": "potential",
+    "y": "current",
+    "group": "cycle"
+  },
+  "recommended": [
+    {
+      "kind": "cv",
+      "style": {
+        "domain": "chemistry",
+        "journal": "acs"
+      }
+    }
+  ]
+}

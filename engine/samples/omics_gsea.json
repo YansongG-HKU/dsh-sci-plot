@@ -1,0 +1,22 @@
+{
+  "name_zh": "GSEA 通路富集棒图数据",
+  "name_en": "GSEA pathway enrichment data",
+  "domain": "omics",
+  "description_zh": "12 条 Hallmark 通路的标准化富集分数与 P 值（免疫治疗应答 vs 无应答）。",
+  "description_en": "Normalised enrichment scores and P values for 12 Hallmark pathways (responders vs non-responders).",
+  "mapping": {
+    "label": "pathway",
+    "x": "es",
+    "p": "p"
+  },
+  "recommended": [
+    {
+      "kind": "gsea_bar",
+      "style": {
+        "domain": "omics",
+        "journal": "cell"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

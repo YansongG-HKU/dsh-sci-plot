@@ -1,0 +1,33 @@
+{
+  "name_zh": "基因-蛋白表达相关",
+  "name_en": "Gene vs protein expression",
+  "domain": "omics",
+  "description_zh": "三种组织的基因表达与蛋白丰度，含细胞数可用于气泡大小。",
+  "description_en": "Gene expression vs protein abundance across three tissues, with cell counts for bubble size.",
+  "mapping": {
+    "x": "gene_expression",
+    "y": "protein_level",
+    "group": "tissue",
+    "size": "cell_count"
+  },
+  "recommended": [
+    {
+      "kind": "scatter",
+      "style": {
+        "domain": "omics"
+      }
+    },
+    {
+      "kind": "bubble",
+      "style": {
+        "domain": "omics"
+      }
+    },
+    {
+      "kind": "regression",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ]
+}

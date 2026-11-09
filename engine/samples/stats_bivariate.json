@@ -1,0 +1,20 @@
+{
+  "name_zh": "双变量联合分布",
+  "name_en": "Bivariate joint distribution",
+  "domain": "omics",
+  "description_zh": "基因表达与蛋白丰度的相关双变量样本，适合二维直方图与密度图。",
+  "description_en": "Correlated gene-expression and protein-abundance draws for 2D histograms and density maps.",
+  "mapping": {
+    "x": "x",
+    "y": "y"
+  },
+  "recommended": [
+    {
+      "kind": "hist2d",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

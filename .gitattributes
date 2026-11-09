@@ -1,0 +1,23 @@
+# Normalize text files across platforms; keep rendered assets binary.
+* text=auto
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.tiff binary
+*.zip binary
+*.ttf binary
+*.otf binary
+
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.svg text eol=lf

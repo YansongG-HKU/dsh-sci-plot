@@ -1,0 +1,22 @@
+{
+  "name_zh": "Taylor 图：模式-观测一致性",
+  "name_en": "Taylor diagram: model-observation agreement",
+  "domain": "physics",
+  "description_zh": "5 个化学传输模式相对观测的相关系数与归一化标准差（参考标准差 = 1），适合 Taylor 图。",
+  "description_en": "Correlation and normalized standard deviation of five chemistry-transport models against observations (reference sigma = 1) for Taylor diagrams.",
+  "mapping": {
+    "label": "model",
+    "correlation": "correlation",
+    "std_ratio": "std_ratio",
+    "rmsd": "rmsd"
+  },
+  "recommended": [
+    {
+      "kind": "taylor",
+      "style": {
+        "domain": "physics",
+        "journal": "aps"
+      }
+    }
+  ]
+}

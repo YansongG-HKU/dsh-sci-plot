@@ -1,0 +1,31 @@
+{
+  "name_zh": "四组效应量分布",
+  "name_en": "Effect-size distributions",
+  "domain": "life-science",
+  "description_zh": "四组样本的效应量分布，适合箱线、小提琴、雨云与密度图。",
+  "description_en": "Effect-size distributions for four cohorts; good for box, violin, raincloud and density.",
+  "mapping": {
+    "x": "cohort",
+    "y": "score"
+  },
+  "recommended": [
+    {
+      "kind": "box",
+      "style": {
+        "domain": "life-science"
+      }
+    },
+    {
+      "kind": "violin",
+      "style": {
+        "domain": "clinical"
+      }
+    },
+    {
+      "kind": "raincloud",
+      "style": {
+        "domain": "social"
+      }
+    }
+  ]
+}

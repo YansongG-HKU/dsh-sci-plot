@@ -1,0 +1,1236 @@
+{
+ "version": 1,
+ "figures": [
+  {
+   "id": "nature-growth",
+   "title_zh": "生长曲线（Nature 单栏）",
+   "title_en": "Growth curves (Nature single column)",
+   "note_zh": "三组条件的生长动力学，开放式坐标轴与 NPG 配色。",
+   "note_en": "Growth kinetics of three conditions with open axes and the NPG palette.",
+   "spec": {
+    "kind": "line",
+    "data": {
+     "sample": "growth",
+     "mapping": {
+      "x": "time_h",
+      "y": "od600",
+      "group": "condition"
+     }
+    },
+    "style": {
+     "domain": "life-science",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Time (h)",
+     "y": "OD$_{600}$"
+    },
+    "options": {
+     "marker": true,
+     "band": false
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-growth"
+    }
+   }
+  },
+  {
+   "id": "aps-multiline",
+   "title_zh": "APS 多序列折线",
+   "title_en": "Multi-series lines (APS)",
+   "note_zh": "Times 字体、内向主次刻度与线型/标记双重编码。",
+   "note_en": "Times text, inward major/minor ticks, marker + line-style encoding.",
+   "spec": {
+    "kind": "multiline",
+    "data": {
+     "sample": "growth",
+     "mapping": {
+      "x": "time_h",
+      "y": "od600",
+      "group": "condition"
+     }
+    },
+    "style": {
+     "domain": "physics",
+     "journal": "aps"
+    },
+    "labels": {
+     "x": "Time (h)",
+     "y": "OD$_{600}$"
+    },
+    "options": {
+     "markers": true,
+     "linestyles": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "aps-multiline"
+    }
+   }
+  },
+  {
+   "id": "nature-volcano",
+   "title_zh": "差异表达火山图",
+   "title_en": "Differential-expression volcano",
+   "note_zh": "阈值线、上调/下调/不显著配色与 top 基因标注。",
+   "note_en": "Threshold guides, up/down/NS colours and top-gene labels.",
+   "spec": {
+    "kind": "volcano",
+    "data": {
+     "sample": "bio_volcano_de",
+     "mapping": {
+      "x": "log2fc",
+      "y": "neglog10_p",
+      "label": "gene"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "log$_2$ fold change",
+     "y": "$-$log$_{10}$ $P$",
+     "legend": "Differential expression"
+    },
+    "options": {
+     "label_top": 5
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-volcano"
+    }
+   }
+  },
+  {
+   "id": "nejm-km",
+   "title_zh": "Kaplan-Meier 生存曲线",
+   "title_en": "Kaplan-Meier survival curve",
+   "note_zh": "删失刻度、风险人数表与 log-rank 检验。",
+   "note_en": "Censoring marks, number-at-risk table and log-rank test.",
+   "spec": {
+    "kind": "km_survival",
+    "data": {
+     "sample": "bio_survival",
+     "mapping": {
+      "time": "time",
+      "event": "event",
+      "group": "arm"
+     }
+    },
+    "style": {
+     "domain": "clinical",
+     "journal": "nejm"
+    },
+    "labels": {
+     "x": "Time since randomisation (months)",
+     "y": "Overall survival (%)"
+    },
+    "options": {
+     "risk_interval": 6
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nejm-km"
+    }
+   }
+  },
+  {
+   "id": "lancet-forest",
+   "title_zh": "森林图（Lancet）",
+   "title_en": "Forest plot (Lancet)",
+   "note_zh": "研究名/HR 文本列、权重方块、无效线与合并菱形。",
+   "note_en": "Study labels, HR text column, weighted squares, null line and pooled diamond.",
+   "spec": {
+    "kind": "forest",
+    "data": {
+     "sample": "bio_forest",
+     "mapping": {
+      "label": "study",
+      "x": "estimate",
+      "ci_low": "ci_low",
+      "ci_high": "ci_high",
+      "size": "weight"
+     }
+    },
+    "style": {
+     "domain": "clinical",
+     "journal": "lancet"
+    },
+    "labels": {
+     "x": "Hazard ratio (95% CI)",
+     "y": "Study"
+    },
+    "options": {
+     "logx": true,
+     "show_overall": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "lancet-forest"
+    }
+   }
+  },
+  {
+   "id": "nature-dose",
+   "title_zh": "剂量-反应曲线",
+   "title_en": "Dose-response curves",
+   "note_zh": "4PL 拟合、95% 置信带与 EC50 标注。",
+   "note_en": "4PL fits with 95% confidence bands and EC50 annotations.",
+   "spec": {
+    "kind": "dose_response",
+    "data": {
+     "sample": "bio_dose",
+     "mapping": {
+      "x": "concentration",
+      "y": "response",
+      "group": "compound"
+     }
+    },
+    "style": {
+     "domain": "life-science",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Concentration (µM)",
+     "y": "Normalised viability (%)",
+     "legend": "Compound"
+    },
+    "options": {
+     "logx": true,
+     "show_band": true,
+     "show_ec50": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-dose"
+    }
+   }
+  },
+  {
+   "id": "nejm-roc",
+   "title_zh": "ROC 曲线",
+   "title_en": "ROC curves",
+   "note_zh": "多模型 ROC、机会对角线与 AUC。",
+   "note_en": "Multi-model ROC with chance diagonal and AUC.",
+   "spec": {
+    "kind": "roc",
+    "data": {
+     "sample": "bio_roc",
+     "mapping": {
+      "x": "fpr",
+      "y": "tpr",
+      "group": "model"
+     }
+    },
+    "style": {
+     "domain": "clinical",
+     "journal": "nejm"
+    },
+    "labels": {
+     "x": "1 − specificity",
+     "y": "Sensitivity",
+     "legend": "Model"
+    },
+    "options": {},
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nejm-roc"
+    }
+   }
+  },
+  {
+   "id": "cell-multipanel",
+   "title_zh": "六面板复合图（Cell）",
+   "title_en": "Six-panel composite (Cell)",
+   "note_zh": "生长、相关、柱状、箱线、热图、分组柱的 A–F 排版。",
+   "note_en": "A-F layout of growth, correlation, bars, box, heatmap and grouped bars.",
+   "spec": {
+    "kind": "multi_panel",
+    "data": {
+     "panels": [
+      {
+       "label": "A",
+       "kind": "line",
+       "data": {
+        "sample": "growth"
+       },
+       "labels": {
+        "x": "Time (h)",
+        "y": "OD$_{600}$",
+        "title": "Growth"
+       }
+      },
+      {
+       "label": "B",
+       "kind": "scatter",
+       "data": {
+        "sample": "scatter"
+       },
+       "labels": {
+        "x": "Expression (log$_2$ TPM)",
+        "y": "Protein (log$_2$)",
+        "title": "Gene vs protein"
+       }
+      },
+      {
+       "label": "C",
+       "kind": "bar",
+       "data": {
+        "sample": "bars"
+       },
+       "labels": {
+        "x": "",
+        "y": "Relative viability (%)",
+        "title": "Viability"
+       }
+      },
+      {
+       "label": "D",
+       "kind": "box",
+       "data": {
+        "sample": "distributions"
+       },
+       "labels": {
+        "x": "",
+        "y": "Effect size (score)",
+        "title": "Cohorts"
+       }
+      },
+      {
+       "label": "E",
+       "kind": "heatmap",
+       "data": {
+        "sample": "matrix_heatmap"
+       },
+       "labels": {
+        "x": "Sample",
+        "y": "Gene",
+        "colorbar": "z-score",
+        "title": "Expression"
+       }
+      },
+      {
+       "label": "F",
+       "kind": "bar",
+       "data": {
+        "sample": "bars_grouped"
+       },
+       "labels": {
+        "x": "",
+        "y": "Relative viability (%)",
+        "title": "By sex"
+       }
+      }
+     ],
+     "layout": {
+      "ncols": 2
+     },
+     "matrix": [
+      [
+       0.0
+      ]
+     ],
+     "rows": [
+      "placeholder"
+     ],
+     "columns": [
+      "placeholder"
+     ],
+     "sample": null
+    },
+    "style": {
+     "domain": "life-science",
+     "journal": "cell",
+     "palette": "jama"
+    },
+    "labels": {},
+    "options": {
+     "ncols": 2,
+     "panel_letters": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "cell-multipanel"
+    }
+   }
+  },
+  {
+   "id": "nature-cluster",
+   "title_zh": "聚类热图",
+   "title_en": "Clustered heatmap",
+   "note_zh": "双向树状图、行 z-score 与发散色标。",
+   "note_en": "Two-way dendrograms, row z-scores and a diverging map.",
+   "spec": {
+    "kind": "cluster_heatmap",
+    "data": {
+     "sample": "omics_expression",
+     "mapping": {
+      "row": "gene",
+      "col": "sample",
+      "value": "value"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Sample",
+     "y": "Gene",
+     "colorbar": "Row z-score"
+    },
+    "options": {
+     "zscore": true,
+     "cluster": true,
+     "show_dendrogram": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-cluster"
+    }
+   }
+  },
+  {
+   "id": "nature-corr",
+   "title_zh": "代谢指标相关矩阵",
+   "title_en": "Metabolic correlation matrix",
+   "note_zh": "下三角系数、0 居中的发散色标。",
+   "note_en": "Lower-triangle coefficients on a zero-centred diverging map.",
+   "spec": {
+    "kind": "corr_heatmap",
+    "data": {
+     "sample": "correlation"
+    },
+    "style": {
+     "domain": "clinical",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Metabolic marker",
+     "y": "",
+     "colorbar": "Pearson r"
+    },
+    "options": {
+     "method": "pearson",
+     "triangle": true,
+     "annot": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-corr"
+    }
+   }
+  },
+  {
+   "id": "apa-likert",
+   "title_zh": "李克特量表（APA）",
+   "title_en": "Likert scale (APA)",
+   "note_zh": "发散堆叠条、中性段 0 对齐与图级图例。",
+   "note_en": "Diverging stacked bars with a neutral zero and a figure-level legend.",
+   "spec": {
+    "kind": "likert",
+    "data": {
+     "sample": "stats_likert",
+     "mapping": {
+      "label": "statement"
+     }
+    },
+    "style": {
+     "domain": "social",
+     "journal": "apa"
+    },
+    "labels": {
+     "x": "Share of respondents (%)"
+    },
+    "options": {
+     "percent": true,
+     "wrap": 30
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "apa-likert"
+    }
+   }
+  },
+  {
+   "id": "acs-spectra",
+   "title_zh": "红外/拉曼光谱",
+   "title_en": "IR / Raman spectra",
+   "note_zh": "多曲线堆叠、峰位标注与反向波数轴。",
+   "note_en": "Stacked spectra, peak labels and a reversed wavenumber axis.",
+   "spec": {
+    "kind": "spectra",
+    "data": {
+     "sample": "phys_spectra",
+     "mapping": {
+      "x": "wavenumber",
+      "y": "absorbance",
+      "group": "sample"
+     }
+    },
+    "style": {
+     "domain": "chemistry",
+     "journal": "acs"
+    },
+    "labels": {
+     "x": "Wavenumber (cm$^{-1}$)",
+     "y": "Absorbance (a.u.)"
+    },
+    "options": {
+     "normalize": true,
+     "offset": 0.24,
+     "peaks": true,
+     "peak_count": 3,
+     "xreversed": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "acs-spectra"
+    }
+   }
+  },
+  {
+   "id": "rsc-xrd",
+   "title_zh": "X 射线衍射谱",
+   "title_en": "X-ray diffraction patterns",
+   "note_zh": "堆叠谱线、峰位与参考卡片。",
+   "note_en": "Stacked patterns with peak labels and a reference card.",
+   "spec": {
+    "kind": "xrd",
+    "data": {
+     "sample": "phys_xrd",
+     "mapping": {
+      "x": "two_theta",
+      "y": "intensity",
+      "group": "sample"
+     }
+    },
+    "style": {
+     "domain": "materials",
+     "journal": "rsc"
+    },
+    "labels": {
+     "x": "2$\\theta$ (deg)",
+     "y": "Intensity (a.u.)"
+    },
+    "options": {
+     "refs": "anatase",
+     "stack": 1,
+     "annotate": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "rsc-xrd"
+    }
+   }
+  },
+  {
+   "id": "acs-cv",
+   "title_zh": "循环伏安曲线",
+   "title_en": "Cyclic voltammetry",
+   "note_zh": "闭合回线、扫描方向与 Epa/Epc 标注。",
+   "note_en": "Closed loops, scan direction and Epa/Epc annotations.",
+   "spec": {
+    "kind": "cv",
+    "data": {
+     "sample": "phys_cv",
+     "mapping": {
+      "x": "potential",
+      "y": "current",
+      "group": "cycle"
+     }
+    },
+    "style": {
+     "domain": "chemistry",
+     "journal": "acs"
+    },
+    "labels": {
+     "x": "Potential (V vs Ag/AgCl)",
+     "y": "Current (µA)"
+    },
+    "options": {
+     "arrows": true,
+     "peaks": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "acs-cv"
+    }
+   }
+  },
+  {
+   "id": "springer-tga",
+   "title_zh": "热重-热流联用",
+   "title_en": "TGA with heat flow",
+   "note_zh": "双轴颜色对应、分解温度与残余量标注。",
+   "note_en": "Colour-matched dual axes with decomposition and residue annotations.",
+   "spec": {
+    "kind": "tga",
+    "data": {
+     "sample": "phys_tga",
+     "mapping": {
+      "x": "temperature",
+      "y": "weight_pct",
+      "y2": "heat_flow"
+     }
+    },
+    "style": {
+     "domain": "chemistry",
+     "journal": "springer"
+    },
+    "labels": {
+     "x": "Temperature (°C)",
+     "y": "Weight (%)",
+     "y2": "Heat flow (mW mg$^{-1}$)"
+    },
+    "options": {
+     "annotate": true,
+     "smooth": 7
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "springer-tga"
+    }
+   }
+  },
+  {
+   "id": "agu-windrose",
+   "title_zh": "风玫瑰图",
+   "title_en": "Wind rose",
+   "note_zh": "16 方位频率、风速分层与样本量注释。",
+   "note_en": "16-sector frequencies stacked by wind speed with sample-size notes.",
+   "spec": {
+    "kind": "windrose",
+    "data": {
+     "sample": "phys_wind",
+     "mapping": {
+      "x": "direction_deg",
+      "y": "speed_ms"
+     }
+    },
+    "style": {
+     "domain": "earth",
+     "journal": "agu"
+    },
+    "labels": {
+     "x": "Direction",
+     "y": "Frequency (%)",
+     "legend": "Wind speed (m s$^{-1}$)"
+    },
+    "options": {
+     "nbins": 16,
+     "calm": 0.5
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "agu-windrose"
+    }
+   }
+  },
+  {
+   "id": "elsevier-contour",
+   "title_zh": "能量等值线场",
+   "title_en": "Energy contour field",
+   "note_zh": "填充等值线、等高线标签与色标。",
+   "note_en": "Filled contours, inline labels and a colour bar.",
+   "spec": {
+    "kind": "contour",
+    "data": {
+     "sample": "phys_contour",
+     "mapping": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+     }
+    },
+    "style": {
+     "domain": "materials",
+     "journal": "elsevier"
+    },
+    "labels": {
+     "x": "x (mm)",
+     "y": "y (mm)",
+     "colorbar": "Energy (eV)"
+    },
+    "options": {
+     "filled": true,
+     "labels": true,
+     "levels": 14
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "elsevier-contour"
+    }
+   }
+  },
+  {
+   "id": "materials-surface3d",
+   "title_zh": "三维势能面",
+   "title_en": "3D potential surface",
+   "note_zh": "视角、色标与坐标单位完整的三维曲面。",
+   "note_en": "A 3D surface with a deliberate camera, colour bar and units.",
+   "spec": {
+    "kind": "surface3d",
+    "data": {
+     "sample": "phys_contour",
+     "mapping": {
+      "x": "x",
+      "y": "y",
+      "z": "z"
+     }
+    },
+    "style": {
+     "domain": "materials",
+     "journal": "springer"
+    },
+    "labels": {
+     "x": "x (mm)",
+     "y": "y (mm)",
+     "colorbar": "Energy (eV)"
+    },
+    "options": {
+     "elev": 32,
+     "azim": -58
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "materials-surface3d"
+    }
+   }
+  },
+  {
+   "id": "ieee-bode",
+   "title_zh": "Bode 幅频/相频图",
+   "title_en": "Bode magnitude and phase",
+   "note_zh": "对数频率轴、双面板与 fc/PM 注释。",
+   "note_en": "Log-frequency axes, stacked panels, fc/PM annotations.",
+   "spec": {
+    "kind": "bode",
+    "data": {
+     "sample": "eng_bode",
+     "mapping": {
+      "x": "frequency_hz",
+      "y": "magnitude_db",
+      "phase": "phase_deg"
+     }
+    },
+    "style": {
+     "domain": "engineering",
+     "journal": "ieee"
+    },
+    "labels": {
+     "x": "Frequency (Hz)",
+     "y": "Magnitude (dB)",
+     "y2": "Phase (deg)"
+    },
+    "options": {
+     "annotate": true,
+     "grid": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "ieee-bode"
+    }
+   }
+  },
+  {
+   "id": "neurips-training",
+   "title_zh": "训练曲线（NeurIPS）",
+   "title_en": "Training curves (NeurIPS)",
+   "note_zh": "多 seed 均值±标准差带、对数损失轴。",
+   "note_en": "Multi-seed mean±SD bands on a log-loss axis.",
+   "spec": {
+    "kind": "training_curves",
+    "data": {
+     "sample": "ml_training",
+     "mapping": {
+      "x": "epoch",
+      "y": "loss",
+      "group": "split",
+      "seed": "seed"
+     }
+    },
+    "style": {
+     "domain": "ml",
+     "journal": "neurips"
+    },
+    "labels": {
+     "x": "Epoch",
+     "y": "Cross-entropy loss",
+     "legend": "Split"
+    },
+    "options": {
+     "yscale": "log",
+     "band": true,
+     "markers": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "neurips-training"
+    }
+   }
+  },
+  {
+   "id": "nature-pca",
+   "title_zh": "主成分分析双标图",
+   "title_en": "PCA score plot",
+   "note_zh": "分组散点、95% 置信椭圆与解释方差轴。",
+   "note_en": "Grouped scores, 95% ellipses and variance-explained axes.",
+   "spec": {
+    "kind": "pca",
+    "data": {
+     "sample": "omics_pca",
+     "mapping": {
+      "group": "group"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "nature",
+     "palette": "jama"
+    },
+    "labels": {
+     "x": "PC1",
+     "y": "PC2",
+     "legend": "Group"
+    },
+    "options": {
+     "standardize": true,
+     "ellipse": true,
+     "centroid": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-pca"
+    }
+   }
+  },
+  {
+   "id": "elsevier-fan",
+   "title_zh": "扇形预测区间",
+   "title_en": "Fan chart",
+   "note_zh": "50/80/95% 分层区间与中位数路径。",
+   "note_en": "Layered 50/80/95% intervals around the median path.",
+   "spec": {
+    "kind": "fan_chart",
+    "data": {
+     "sample": "econ_fan",
+     "mapping": {
+      "x": "month",
+      "y": "median",
+      "lower50": "lo50",
+      "upper50": "hi50",
+      "lower80": "lo80",
+      "upper80": "hi80",
+      "lower95": "lo95",
+      "upper95": "hi95"
+     }
+    },
+    "style": {
+     "domain": "economics",
+     "journal": "elsevier"
+    },
+    "labels": {
+     "x": "Month",
+     "y": "CPI inflation (%)"
+    },
+    "options": {
+     "legend": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "elsevier-fan"
+    }
+   }
+  },
+  {
+   "id": "elsevier-waterfall",
+   "title_zh": "瀑布图",
+   "title_en": "Waterfall chart",
+   "note_zh": "累计连接、正负配色与总值。",
+   "note_en": "Cumulative connectors, signed colours and a total bar.",
+   "spec": {
+    "kind": "waterfall",
+    "data": {
+     "sample": "econ_waterfall",
+     "mapping": {
+      "x": "stage",
+      "y": "delta"
+     }
+    },
+    "style": {
+     "domain": "economics",
+     "journal": "elsevier"
+    },
+    "labels": {
+     "x": "",
+     "y": "USD millions",
+     "total": "Net income"
+    },
+    "options": {
+     "show_total": true,
+     "value_labels": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "elsevier-waterfall"
+    }
+   }
+  },
+  {
+   "id": "nature-manhattan",
+   "title_zh": "曼哈顿图",
+   "title_en": "Manhattan plot",
+   "note_zh": "染色体交替配色、显著性阈值与 lead SNP。",
+   "note_en": "Alternating chromosome colours, significance threshold and lead SNPs.",
+   "spec": {
+    "kind": "manhattan",
+    "data": {
+     "sample": "bio_manhattan",
+     "mapping": {
+      "x": "pos",
+      "y": "neglog10_p",
+      "label": "snp",
+      "chr": "chr"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Chromosome",
+     "y": "$-$log$_{10}$ $P$"
+    },
+    "options": {
+     "label_top": 4
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-manhattan"
+    }
+   }
+  },
+  {
+   "id": "nature-raincloud",
+   "title_zh": "雨云图",
+   "title_en": "Raincloud plot",
+   "note_zh": "半小提琴 + 箱线 + 抖动散点的组合分布图。",
+   "note_en": "Half-violin, box and jittered points in one distribution view.",
+   "spec": {
+    "kind": "raincloud",
+    "data": {
+     "sample": "distributions",
+     "mapping": {
+      "x": "cohort",
+      "y": "score"
+     }
+    },
+    "style": {
+     "domain": "life-science",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Genotype",
+     "y": "Effect size (a.u.)"
+    },
+    "options": {
+     "cloud_width": 0.34,
+     "rain_alpha": 0.55
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-raincloud"
+    }
+   }
+  },
+  {
+   "id": "apa-box",
+   "title_zh": "箱线图（APA）",
+   "title_en": "Box plot (APA)",
+   "note_zh": "箱体、离群点、抖动点与样本量。",
+   "note_en": "Boxes, outliers, jittered points and sample sizes.",
+   "spec": {
+    "kind": "box",
+    "data": {
+     "sample": "distributions",
+     "mapping": {
+      "x": "cohort",
+      "y": "score"
+     }
+    },
+    "style": {
+     "domain": "social",
+     "journal": "apa"
+    },
+    "labels": {
+     "x": "Genotype",
+     "y": "Effect size (a.u.)"
+    },
+    "options": {
+     "points": true,
+     "stats": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "apa-box"
+    }
+   }
+  },
+  {
+   "id": "nature-scatter",
+   "title_zh": "相关散点与回归带",
+   "title_en": "Correlation scatter with fit",
+   "note_zh": "分组散点、95% 置信带与相关统计量。",
+   "note_en": "Grouped scatter, 95% CI band and correlation statistics.",
+   "spec": {
+    "kind": "scatter",
+    "data": {
+     "sample": "scatter",
+     "mapping": {
+      "x": "gene_expression",
+      "y": "protein_level",
+      "group": "tissue",
+      "size": "cell_count"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "nature"
+    },
+    "labels": {
+     "x": "Gene expression (log$_2$ TPM)",
+     "y": "Protein abundance (log$_2$)"
+    },
+    "options": {
+     "regression": true,
+     "ci": true,
+     "stats": true
+    },
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "nature-scatter"
+    }
+   }
+  },
+  {
+   "id": "cell-dot",
+   "title_zh": "单细胞标记点图",
+   "title_en": "Single-cell dot plot",
+   "note_zh": "点大小=表达比例、颜色=平均表达的双编码。",
+   "note_en": "Dot size for fraction and colour for mean expression.",
+   "spec": {
+    "kind": "dot_plot",
+    "data": {
+     "sample": "omics_dot",
+     "mapping": {
+      "x": "cluster",
+      "y": "gene",
+      "size": "fraction",
+      "value": "mean_expression"
+     }
+    },
+    "style": {
+     "domain": "omics",
+     "journal": "cell"
+    },
+    "labels": {
+     "x": "Cluster",
+     "y": "Gene",
+     "colorbar": "Mean expression"
+    },
+    "options": {},
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "cell-dot"
+    }
+   }
+  },
+  {
+   "id": "agu-heatmap",
+   "title_zh": "空间相分数热图",
+   "title_en": "Spatial phase-fraction heatmap",
+   "note_zh": "网格化空间场与物理量色标。",
+   "note_en": "Gridded spatial field with a physical colour bar.",
+   "spec": {
+    "kind": "heatmap",
+    "data": {
+     "sample": "phys_heatmap",
+     "mapping": {
+      "x": "x_um",
+      "y": "y_um",
+      "z": "phase_fraction"
+     }
+    },
+    "style": {
+     "domain": "earth",
+     "journal": "agu"
+    },
+    "labels": {
+     "x": "x (µm)",
+     "y": "y (µm)",
+     "colorbar": "Phase fraction"
+    },
+    "options": {},
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "agu-heatmap"
+    }
+   }
+  },
+  {
+   "id": "aps-taylor",
+   "title_zh": "Taylor 图（APS）",
+   "title_en": "Taylor diagram (APS)",
+   "note_zh": "相关角、RMSD 同心圆与模型点。",
+   "note_en": "Correlation angle, RMSD arcs and model points.",
+   "spec": {
+    "kind": "taylor",
+    "data": {
+     "sample": "phys_taylor",
+     "mapping": {
+      "label": "model",
+      "correlation": "correlation",
+      "std_ratio": "std_ratio",
+      "rmsd": "rmsd"
+     }
+    },
+    "style": {
+     "domain": "physics",
+     "journal": "aps"
+    },
+    "labels": {
+     "y": "Correlation",
+     "x": "Normalised standard deviation"
+    },
+    "options": {},
+    "output": {
+     "formats": [
+      "png",
+      "svg",
+      "pdf"
+     ],
+     "basename": "aps-taylor"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "name_zh": "1/f 噪声功率谱密度",
+  "name_en": "1/f noise power spectral density",
+  "domain": "engineering",
+  "description_zh": "0.1–1000 Hz 的 PSD（f$^{-0.9}$ 漂移 + 50 Hz 工频及其谐波），适合 log-log 曲线与噪声基底标注。",
+  "description_en": "PSD from 0.1 to 1000 Hz with 1/f^0.9 drift, a 50 Hz mains line and its harmonic, for log-log plots with a noise floor.",
+  "mapping": {
+    "x": "frequency_hz",
+    "y": "psd"
+  },
+  "recommended": [
+    {
+      "kind": "psd",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

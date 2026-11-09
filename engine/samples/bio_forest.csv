@@ -1,0 +1,10 @@
+study,estimate,ci_low,ci_high,weight
+IMvigor210,0.72,0.558,0.929,37.88
+KEYNOTE-052,0.83,0.669,1.03,52.91
+CheckMate 275,0.58,0.432,0.778,28.45
+DANUBE,0.91,0.748,1.11,64.02
+JAVELIN Bladder 100,0.69,0.578,0.823,79.07
+NILE,0.78,0.617,0.987,44.46
+IMvigor130,0.85,0.727,0.994,100
+Pooled real-world,0.74,0.562,0.974,32.66
+Overall (random effects),0.76,0.68,0.86,0

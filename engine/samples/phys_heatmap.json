@@ -1,0 +1,21 @@
+{
+  "name_zh": "微区相分数热图（10×8）",
+  "name_en": "Micro-area phase-fraction heatmap (10x8)",
+  "domain": "materials",
+  "description_zh": "10×8 微区相分数矩阵（0–1），适合 pcolormesh/imshow 热图、色标与数值标注。",
+  "description_en": "A 10x8 phase-fraction map (0-1) for pcolormesh/imshow heatmaps with colour bar and cell values.",
+  "mapping": {
+    "x": "x_um",
+    "y": "y_um",
+    "z": "phase_fraction"
+  },
+  "recommended": [
+    {
+      "kind": "heatmap",
+      "style": {
+        "domain": "materials",
+        "journal": "acs"
+      }
+    }
+  ]
+}

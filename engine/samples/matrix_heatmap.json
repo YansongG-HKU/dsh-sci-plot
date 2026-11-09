@@ -1,0 +1,26 @@
+{
+  "name_zh": "基因表达热图（长表）",
+  "name_en": "Gene expression heatmap (long)",
+  "domain": "omics",
+  "description_zh": "8×8 基因×样本 z-score 长表，适合热图与聚类热图。",
+  "description_en": "8x8 gene-by-sample z-score table in long form for heatmaps and clustered heatmaps.",
+  "mapping": {
+    "row": "gene",
+    "col": "sample",
+    "value": "zscore"
+  },
+  "recommended": [
+    {
+      "kind": "heatmap",
+      "style": {
+        "domain": "omics"
+      }
+    },
+    {
+      "kind": "cluster_heatmap",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ]
+}

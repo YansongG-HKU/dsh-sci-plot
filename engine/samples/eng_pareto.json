@@ -1,0 +1,20 @@
+{
+  "name_zh": "缺陷帕累托分析",
+  "name_en": "Defect Pareto analysis",
+  "domain": "engineering",
+  "description_zh": "8 类焊点缺陷计数（n = 476），降序柱 + 累计百分比，前 4 类约占 79%。",
+  "description_en": "Counts of eight solder-defect classes (n = 476) for descending bars with a cumulative-percentage line; the top four account for about 79%.",
+  "mapping": {
+    "x": "defect",
+    "y": "count"
+  },
+  "recommended": [
+    {
+      "kind": "pareto",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

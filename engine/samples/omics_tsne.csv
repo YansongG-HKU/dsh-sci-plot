@@ -1,0 +1,221 @@
+cell,x,y,cluster
+cell_0163,-3.735,2.505,Myeloid
+cell_0169,1.319,-3.385,NK cells
+cell_0164,-1.873,1.965,Myeloid
+cell_0200,1.206,-2.956,NK cells
+cell_0021,0.49,0.184,T cells
+cell_0056,2.776,1.601,B cells
+cell_0136,-2.34,1.845,Myeloid
+cell_0175,1.755,-3.301,NK cells
+cell_0026,-0.6752,0.5555,T cells
+cell_0160,-2.006,1.778,Myeloid
+cell_0008,-0.07852,0.6272,T cells
+cell_0069,3.242,1.858,B cells
+cell_0072,2.894,1.49,B cells
+cell_0167,1.036,-2.872,NK cells
+cell_0206,1.034,-3.688,NK cells
+cell_0035,-0.8083,0.3068,T cells
+cell_0147,-2.487,2.868,Myeloid
+cell_0124,-3.289,1.658,Myeloid
+cell_0016,-0.3792,-0.7473,T cells
+cell_0103,3.037,2.304,B cells
+cell_0079,3.609,1.984,B cells
+cell_0113,-2.97,1.928,Myeloid
+cell_0178,0.6329,-2.607,NK cells
+cell_0070,3.309,2.261,B cells
+cell_0067,2.811,1.919,B cells
+cell_0118,-2.941,2.204,Myeloid
+cell_0085,3.483,2.157,B cells
+cell_0038,0.8384,0.01294,T cells
+cell_0014,-0.5278,-0.1819,T cells
+cell_0196,1.143,-2.909,NK cells
+cell_0119,-2.842,2.563,Myeloid
+cell_0066,3.698,1.122,B cells
+cell_0050,0.7657,-0.2089,T cells
+cell_0006,0.423,-0.252,T cells
+cell_0049,0.2352,-0.929,T cells
+cell_0071,3.34,1.733,B cells
+cell_0215,0.9134,-3.352,NK cells
+cell_0194,1.178,-3.152,NK cells
+cell_0077,2.677,1.946,B cells
+cell_0025,0.4362,-0.2729,T cells
+cell_0005,0.9222,-0.2521,T cells
+cell_0042,-0.5129,0.1321,T cells
+cell_0015,0.8723,0.3844,T cells
+cell_0099,3.328,1.568,B cells
+cell_0168,1.036,-2.674,NK cells
+cell_0004,0.3402,-0.36,T cells
+cell_0166,1.089,-2.654,NK cells
+cell_0109,2.495,1.594,B cells
+cell_0089,3.027,2.501,B cells
+cell_0007,0.8522,-0.06404,T cells
+cell_0084,3.65,2.371,B cells
+cell_0022,0.7919,-0.1169,T cells
+cell_0017,-0.03541,-0.5514,T cells
+cell_0202,1.293,-2.654,NK cells
+cell_0028,-0.6433,0.003949,T cells
+cell_0204,1.147,-2.415,NK cells
+cell_0104,3.531,2.101,B cells
+cell_0080,2.85,2.273,B cells
+cell_0145,-2.255,3.369,Myeloid
+cell_0046,0.00517,-0.8412,T cells
+cell_0068,3.416,2.745,B cells
+cell_0062,3.972,1.592,B cells
+cell_0193,1.487,-3.184,NK cells
+cell_0190,1.229,-3.136,NK cells
+cell_0187,1.244,-3.845,NK cells
+cell_0041,-0.67,0.1796,T cells
+cell_0073,2.872,1.752,B cells
+cell_0048,0.2463,-0.2461,T cells
+cell_0170,1.102,-3.072,NK cells
+cell_0039,-0.5439,0.3388,T cells
+cell_0094,2.595,1.864,B cells
+cell_0023,-0.8599,-0.6191,T cells
+cell_0097,3.163,2.486,B cells
+cell_0078,3.064,1.165,B cells
+cell_0040,0.08855,-0.3853,T cells
+cell_0047,0.228,0.8009,T cells
+cell_0095,3.414,1.863,B cells
+cell_0212,1.648,-2.987,NK cells
+cell_0122,-2.357,1.735,Myeloid
+cell_0139,-2.338,3.208,Myeloid
+cell_0110,3.803,1.663,B cells
+cell_0045,-0.7408,0.06263,T cells
+cell_0181,1.005,-3.612,NK cells
+cell_0210,0.6591,-2.907,NK cells
+cell_0127,-2.632,3.083,Myeloid
+cell_0053,-0.6212,-0.4431,T cells
+cell_0044,-0.2413,0.9274,T cells
+cell_0091,2.486,1.563,B cells
+cell_0197,0.9913,-2.697,NK cells
+cell_0201,1.884,-2.798,NK cells
+cell_0172,0.7773,-3.017,NK cells
+cell_0107,2.733,1.695,B cells
+cell_0180,1.318,-3.075,NK cells
+cell_0031,0.3828,0.3059,T cells
+cell_0209,1.732,-3.434,NK cells
+cell_0027,0.8269,0.1474,T cells
+cell_0153,-2.699,1.538,Myeloid
+cell_0146,-2.678,2.88,Myeloid
+cell_0135,-2.064,2.927,Myeloid
+cell_0032,0.1739,0.26,T cells
+cell_0036,-1.075,0.1441,T cells
+cell_0013,-0.2602,0.9262,T cells
+cell_0203,1.875,-2.61,NK cells
+cell_0012,0.007821,-0.2322,T cells
+cell_0120,-3.377,2.014,Myeloid
+cell_0100,3.12,1.429,B cells
+cell_0211,0.6771,-3.356,NK cells
+cell_0125,-3.262,2.294,Myeloid
+cell_0121,-3.521,2.344,Myeloid
+cell_0208,1.744,-3.326,NK cells
+cell_0034,0.5746,-0.4413,T cells
+cell_0102,2.716,2.437,B cells
+cell_0101,2.703,2.28,B cells
+cell_0063,2.73,1.792,B cells
+cell_0132,-2.616,2.387,Myeloid
+cell_0086,2.975,1.722,B cells
+cell_0199,1.597,-3.075,NK cells
+cell_0001,0.6509,-0.3162,T cells
+cell_0130,-2.499,1.997,Myeloid
+cell_0191,1.399,-2.689,NK cells
+cell_0216,0.9223,-3.243,NK cells
+cell_0179,1.797,-2.907,NK cells
+cell_0033,0.5448,0.04049,T cells
+cell_0024,-0.2395,-0.08457,T cells
+cell_0161,-2.746,2.19,Myeloid
+cell_0009,0.09719,-0.7709,T cells
+cell_0156,-2.948,3.043,Myeloid
+cell_0060,2.55,1.752,B cells
+cell_0185,1.672,-3.024,NK cells
+cell_0189,1.116,-3.388,NK cells
+cell_0059,3.33,2.532,B cells
+cell_0114,-2.952,1.685,Myeloid
+cell_0214,0.9916,-2.872,NK cells
+cell_0174,0.5344,-3.335,NK cells
+cell_0155,-2.512,2.831,Myeloid
+cell_0020,0.09747,-0.5755,T cells
+cell_0150,-2.844,1.79,Myeloid
+cell_0182,0.6223,-2.777,NK cells
+cell_0186,1.488,-3.788,NK cells
+cell_0138,-2.777,2.894,Myeloid
+cell_0115,-3.07,2.405,Myeloid
+cell_0098,3.531,2.127,B cells
+cell_0162,-2.644,2.242,Myeloid
+cell_0128,-3.409,3.03,Myeloid
+cell_0010,0.01563,0.9863,T cells
+cell_0083,3.38,1.724,B cells
+cell_0219,1.749,-3.462,NK cells
+cell_0165,-2.273,1.542,Myeloid
+cell_0133,-3.541,2.487,Myeloid
+cell_0092,3.56,1.44,B cells
+cell_0065,3.478,1.248,B cells
+cell_0011,0.3164,0.2445,T cells
+cell_0177,1.452,-2.477,NK cells
+cell_0218,1.242,-2.536,NK cells
+cell_0126,-1.93,1.805,Myeloid
+cell_0140,-3.337,1.687,Myeloid
+cell_0076,3.055,1.308,B cells
+cell_0171,1.578,-3.429,NK cells
+cell_0108,3.77,2.471,B cells
+cell_0192,1.455,-3.046,NK cells
+cell_0217,1.49,-3.628,NK cells
+cell_0002,-0.2926,-0.854,T cells
+cell_0213,1.225,-2.36,NK cells
+cell_0090,2.655,2.062,B cells
+cell_0131,-2.769,2.663,Myeloid
+cell_0134,-2.461,1.876,Myeloid
+cell_0144,-2.837,2.194,Myeloid
+cell_0075,3.727,2.376,B cells
+cell_0157,-2.016,2.849,Myeloid
+cell_0220,1.599,-3.634,NK cells
+cell_0173,1.807,-2.889,NK cells
+cell_0054,-0.3751,0.6697,T cells
+cell_0198,1.493,-2.149,NK cells
+cell_0205,1.398,-2.354,NK cells
+cell_0105,3.319,1.429,B cells
+cell_0088,3.874,1.181,B cells
+cell_0111,-2.396,3.067,Myeloid
+cell_0081,3.349,2.078,B cells
+cell_0116,-3.044,2.764,Myeloid
+cell_0055,-0.7658,0.07584,T cells
+cell_0030,-0.3335,0.1397,T cells
+cell_0019,0.2701,-0.5296,T cells
+cell_0018,0.126,0.8739,T cells
+cell_0051,0.0005151,0.9387,T cells
+cell_0188,1.465,-2.987,NK cells
+cell_0184,0.9997,-2.476,NK cells
+cell_0043,0.7838,-0.5339,T cells
+cell_0087,3.008,1.562,B cells
+cell_0159,-2.496,3.07,Myeloid
+cell_0143,-2.607,2.663,Myeloid
+cell_0123,-2.843,1.577,Myeloid
+cell_0058,2.846,1.8,B cells
+cell_0093,2.813,1.644,B cells
+cell_0129,-3.435,2.757,Myeloid
+cell_0154,-2.419,1.951,Myeloid
+cell_0183,1.233,-2.832,NK cells
+cell_0029,0.3816,0.4083,T cells
+cell_0052,0.0908,0.1393,T cells
+cell_0149,-2.124,2.51,Myeloid
+cell_0158,-2.324,2.172,Myeloid
+cell_0112,-2.523,2.767,Myeloid
+cell_0207,1.645,-3.119,NK cells
+cell_0195,0.8406,-3.129,NK cells
+cell_0117,-2.235,2.018,Myeloid
+cell_0037,0.322,-0.1128,T cells
+cell_0141,-2.166,1.861,Myeloid
+cell_0152,-2.655,1.302,Myeloid
+cell_0061,3.387,1.554,B cells
+cell_0074,3.6,2.048,B cells
+cell_0137,-3.334,1.966,Myeloid
+cell_0096,4.037,2.418,B cells
+cell_0176,1.171,-3.142,NK cells
+cell_0148,-3.117,1.687,Myeloid
+cell_0057,3.507,1.898,B cells
+cell_0003,0.5556,0.2396,T cells
+cell_0151,-2.798,2.844,Myeloid
+cell_0106,2.682,1.531,B cells
+cell_0064,4.197,2.142,B cells
+cell_0082,3.363,2.041,B cells
+cell_0142,-2.449,2.539,Myeloid

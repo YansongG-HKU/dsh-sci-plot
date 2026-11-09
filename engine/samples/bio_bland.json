@@ -1,0 +1,21 @@
+{
+  "name_zh": "Bland-Altman 一致性数据",
+  "name_en": "Bland-Altman agreement data",
+  "domain": "clinical",
+  "description_zh": "肿瘤组织 NGS 与 ctDNA 检测的变异等位基因频率配对测量（n=128）。",
+  "description_en": "Paired variant-allele fractions from tumour NGS and ctDNA assays (n=128).",
+  "mapping": {
+    "x": "method_a",
+    "y": "method_b"
+  },
+  "recommended": [
+    {
+      "kind": "bland_altman",
+      "style": {
+        "domain": "clinical",
+        "journal": "jama"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

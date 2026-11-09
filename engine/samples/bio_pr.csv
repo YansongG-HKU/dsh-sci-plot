@@ -1,0 +1,1261 @@
+model,score,outcome
+Clinical model,-0.1964,0
+Clinical model,1.575,0
+Clinical model,-0.1256,0
+Clinical model,1.639,0
+Clinical model,-1.861,0
+Clinical model,0.5156,0
+Clinical model,1.777,0
+Clinical model,1.345,1
+Clinical model,-0.5228,0
+Clinical model,-1.923,0
+Clinical model,1.798,0
+Clinical model,1.993,1
+Clinical model,1.08,0
+Clinical model,-0.1518,0
+Clinical model,-0.06307,0
+Clinical model,-1.334,0
+Clinical model,-0.9473,0
+Clinical model,0.9008,0
+Clinical model,-0.3479,0
+Clinical model,-0.1521,0
+Clinical model,-0.5732,0
+Clinical model,0.7651,0
+Clinical model,0.8989,0
+Clinical model,-0.7287,0
+Clinical model,-0.7891,0
+Clinical model,0.6863,1
+Clinical model,-0.7175,1
+Clinical model,0.6474,0
+Clinical model,-0.466,0
+Clinical model,1.455,0
+Clinical model,1.778,0
+Clinical model,1.245,1
+Clinical model,0.02574,1
+Clinical model,0.6473,1
+Clinical model,0.4302,1
+Clinical model,-1.308,0
+Clinical model,0.08017,0
+Clinical model,0.6651,0
+Clinical model,-0.01445,0
+Clinical model,-0.2321,0
+Clinical model,1.066,0
+Clinical model,0.1155,0
+Clinical model,-0.5404,0
+Clinical model,0.3396,0
+Clinical model,-0.4519,0
+Clinical model,0.6675,1
+Clinical model,0.7749,1
+Clinical model,1.087,0
+Clinical model,0.9684,0
+Clinical model,-0.9961,0
+Clinical model,-0.2986,0
+Clinical model,1.742,1
+Clinical model,-1.964,0
+Clinical model,-1.17,0
+Clinical model,0.1314,0
+Clinical model,1.493,1
+Clinical model,1.034,0
+Clinical model,1.878,0
+Clinical model,-1.75,0
+Clinical model,0.9634,1
+Clinical model,-0.1571,0
+Clinical model,0.05721,0
+Clinical model,-1.3,0
+Clinical model,-1.612,0
+Clinical model,-0.2492,0
+Clinical model,1.623,0
+Clinical model,-0.003759,1
+Clinical model,-1.4,0
+Clinical model,1.426,1
+Clinical model,1.36,0
+Clinical model,1.405,1
+Clinical model,0.4367,1
+Clinical model,-0.3559,1
+Clinical model,-0.3202,0
+Clinical model,-1.13,0
+Clinical model,-0.4304,1
+Clinical model,0.2955,1
+Clinical model,0.1731,1
+Clinical model,1.378,0
+Clinical model,0.6052,1
+Clinical model,0.5975,0
+Clinical model,0.6182,1
+Clinical model,-0.4553,0
+Clinical model,0.5493,0
+Clinical model,-1.849,1
+Clinical model,-0.6382,0
+Clinical model,0.4117,1
+Clinical model,1.997,0
+Clinical model,-0.9441,0
+Clinical model,0.4216,0
+Clinical model,-0.1685,0
+Clinical model,0.8375,0
+Clinical model,0.3573,0
+Clinical model,1.934,1
+Clinical model,1.332,0
+Clinical model,-0.3019,0
+Clinical model,0.6362,1
+Clinical model,0.6034,0
+Clinical model,1.457,1
+Clinical model,-0.4523,0
+Clinical model,-0.4867,0
+Clinical model,1.48,0
+Clinical model,0.7515,0
+Clinical model,0.1777,0
+Clinical model,0.2289,0
+Clinical model,-2.311,0
+Clinical model,0.9963,1
+Clinical model,-0.7899,0
+Clinical model,0.5788,1
+Clinical model,0.3003,1
+Clinical model,-1.299,0
+Clinical model,0.7915,1
+Clinical model,1.726,0
+Clinical model,2.832,1
+Clinical model,1.795,0
+Clinical model,1.112,1
+Clinical model,1.35,1
+Clinical model,-0.1147,1
+Clinical model,0.191,0
+Clinical model,-1.623,0
+Clinical model,0.3792,0
+Clinical model,0.04836,0
+Clinical model,1.956,1
+Clinical model,0.4285,1
+Clinical model,0.8055,0
+Clinical model,-1.339,0
+Clinical model,0.6705,0
+Clinical model,-0.9715,0
+Clinical model,-0.001155,0
+Clinical model,-1.223,0
+Clinical model,0.4536,0
+Clinical model,2.131,0
+Clinical model,0.1264,0
+Clinical model,0.7881,0
+Clinical model,-0.4024,0
+Clinical model,1.947,0
+Clinical model,-0.2812,0
+Clinical model,0.3192,1
+Clinical model,2.474,1
+Clinical model,-0.8376,0
+Clinical model,0.1678,0
+Clinical model,1.795,0
+Clinical model,-0.3071,0
+Clinical model,-0.8887,0
+Clinical model,1.33,0
+Clinical model,-1.116,1
+Clinical model,-0.3998,0
+Clinical model,0.1593,0
+Clinical model,-1.07,1
+Clinical model,1.079,0
+Clinical model,-0.1343,0
+Clinical model,0.2706,1
+Clinical model,2.584,0
+Clinical model,1.117,0
+Clinical model,0.5729,1
+Clinical model,0.2774,0
+Clinical model,2.305,0
+Clinical model,1.425,0
+Clinical model,-0.7708,0
+Clinical model,0.05688,0
+Clinical model,-1.052,0
+Clinical model,0.3983,0
+Clinical model,0.3194,1
+Clinical model,0.4394,0
+Clinical model,0.5676,1
+Clinical model,1.418,1
+Clinical model,1.591,1
+Clinical model,-1.059,0
+Clinical model,-0.07318,0
+Clinical model,0.5578,1
+Clinical model,-1.866,1
+Clinical model,-0.1626,0
+Clinical model,0.642,0
+Clinical model,-0.01043,1
+Clinical model,0.9619,0
+Clinical model,-0.5142,0
+Clinical model,-0.1931,1
+Clinical model,1.414,0
+Clinical model,0.1229,0
+Clinical model,-1.22,0
+Clinical model,0.5029,1
+Clinical model,0.2363,0
+Clinical model,0.7617,0
+Clinical model,0.8314,0
+Clinical model,1.246,0
+Clinical model,1.505,1
+Clinical model,0.7034,0
+Clinical model,-2.323,0
+Clinical model,1.741,0
+Clinical model,1.983,1
+Clinical model,-0.1005,0
+Clinical model,3.408,1
+Clinical model,-0.2267,0
+Clinical model,-1.022,0
+Clinical model,1.135,1
+Clinical model,1.326,1
+Clinical model,0.6846,0
+Clinical model,0.8484,1
+Clinical model,0.4969,1
+Clinical model,0.5344,0
+Clinical model,0.2875,0
+Clinical model,0.5631,0
+Clinical model,0.52,0
+Clinical model,0.5826,0
+Clinical model,-1.128,0
+Clinical model,-0.06171,0
+Clinical model,-0.3714,0
+Clinical model,0.9769,0
+Clinical model,-0.2521,0
+Clinical model,0.8694,1
+Clinical model,-1.651,0
+Clinical model,0.3611,1
+Clinical model,0.8193,0
+Clinical model,0.02762,0
+Clinical model,0.9748,0
+Clinical model,-0.2852,0
+Clinical model,0.8752,1
+Clinical model,0.5152,0
+Clinical model,-0.00259,0
+Clinical model,-0.2312,0
+Clinical model,-1.517,0
+Clinical model,-0.04953,1
+Clinical model,-1.954,0
+Clinical model,1.226,0
+Clinical model,0.898,0
+Clinical model,0.3127,0
+Clinical model,0.06558,0
+Clinical model,-0.4727,0
+Clinical model,-0.2522,0
+Clinical model,-1.585,0
+Clinical model,0.3124,0
+Clinical model,1.191,0
+Clinical model,1.161,1
+Clinical model,0.3714,0
+Clinical model,-0.5993,0
+Clinical model,-0.4387,0
+Clinical model,-0.1351,0
+Clinical model,-1.102,0
+Clinical model,-0.7133,0
+Clinical model,-0.9332,0
+Clinical model,-0.577,0
+Clinical model,0.4368,0
+Clinical model,0.07974,0
+Clinical model,0.1834,0
+Clinical model,0.4654,0
+Clinical model,2.823,0
+Clinical model,-1.179,0
+Clinical model,-0.405,1
+Clinical model,1.527,1
+Clinical model,0.5432,0
+Clinical model,2.593,1
+Clinical model,-0.9887,0
+Clinical model,0.3999,0
+Clinical model,0.9525,1
+Clinical model,0.3174,0
+Clinical model,-1.386,0
+Clinical model,1.057,1
+Clinical model,-0.407,0
+Clinical model,0.8451,0
+Clinical model,-1.447,0
+Clinical model,0.8304,0
+Clinical model,0.457,1
+Clinical model,0.777,1
+Clinical model,2.297,1
+Clinical model,-0.4774,0
+Clinical model,0.706,0
+Clinical model,1.39,0
+Clinical model,0.2561,1
+Clinical model,0.8742,1
+Clinical model,0.5929,1
+Clinical model,0.0452,1
+Clinical model,-0.7948,1
+Clinical model,-1.097,0
+Clinical model,0.3108,0
+Clinical model,0.5997,0
+Clinical model,1.516,0
+Clinical model,-0.01796,0
+Clinical model,0.7598,0
+Clinical model,1.13,0
+Clinical model,-0.002369,0
+Clinical model,-0.5826,0
+Clinical model,-0.53,0
+Clinical model,1.938,0
+Clinical model,0.1234,0
+Clinical model,0.423,0
+Clinical model,0.883,1
+Clinical model,-0.3623,0
+Clinical model,0.8636,0
+Clinical model,0.7077,0
+Clinical model,0.1961,0
+Clinical model,0.7416,0
+Clinical model,-0.3254,1
+Clinical model,-0.5357,0
+Clinical model,1.349,0
+Clinical model,-0.5087,0
+Clinical model,0.2137,0
+Clinical model,0.3022,0
+Clinical model,0.921,1
+Clinical model,0.5399,0
+Clinical model,1.505,0
+Clinical model,1.374,1
+Clinical model,2.863,1
+Clinical model,-1.292,0
+Clinical model,0.9202,0
+Clinical model,0.06607,0
+Clinical model,0.1324,0
+Clinical model,0.5888,0
+Clinical model,0.7739,0
+Clinical model,-1.177,0
+Clinical model,0.004996,0
+Clinical model,0.1628,0
+Clinical model,0.3704,0
+Clinical model,1.04,1
+Clinical model,-0.431,0
+Clinical model,0.3371,1
+Clinical model,0.1177,1
+Clinical model,-0.4526,0
+Clinical model,0.1307,0
+Clinical model,0.001849,1
+Clinical model,0.7628,0
+Clinical model,0.1493,1
+Clinical model,1.39,0
+Clinical model,0.6402,1
+Clinical model,1.643,1
+Clinical model,-0.3957,1
+Clinical model,0.09134,0
+Clinical model,0.3109,0
+Clinical model,0.2238,0
+Clinical model,0.4793,0
+Clinical model,1.135,1
+Clinical model,0.01421,0
+Clinical model,-0.4588,0
+Clinical model,-1.922,0
+Clinical model,0.8478,0
+Clinical model,-0.8744,0
+Clinical model,-0.6434,0
+Clinical model,-1.642,0
+Clinical model,0.04554,0
+Clinical model,0.1668,0
+Clinical model,0.7838,0
+Clinical model,0.1792,1
+Clinical model,1.985,0
+Clinical model,0.8924,1
+Clinical model,-0.1758,0
+Clinical model,0.1522,0
+Clinical model,-0.5878,0
+Clinical model,1.476,1
+Clinical model,0.2462,0
+Clinical model,1.227,0
+Clinical model,-0.6037,0
+Clinical model,-0.9908,0
+Clinical model,-0.6713,1
+Clinical model,0.9756,1
+Clinical model,0.6012,1
+Clinical model,-0.7842,0
+Clinical model,2.225,1
+Clinical model,0.2021,1
+Clinical model,0.8128,0
+Clinical model,3.005,1
+Clinical model,-0.01985,1
+Clinical model,-0.1929,1
+Clinical model,1.723,1
+Clinical model,0.8419,0
+Clinical model,2.634,0
+Clinical model,0.8641,0
+Clinical model,0.8651,0
+Clinical model,1.832,1
+Clinical model,0.8458,0
+Clinical model,0.6575,1
+Clinical model,-1.532,0
+Clinical model,1.313,1
+Clinical model,-1.297,0
+Clinical model,0.3599,0
+Clinical model,0.01494,0
+Clinical model,-1.065,0
+Clinical model,-0.7305,1
+Clinical model,2.145,1
+Clinical model,1.895,0
+Clinical model,1.087,0
+Clinical model,1.63,1
+Clinical model,1.393,0
+Clinical model,0.5842,0
+Clinical model,-0.02342,0
+Clinical model,0.2701,0
+Clinical model,-0.4982,0
+Clinical model,-0.4438,0
+Clinical model,0.1823,0
+Clinical model,1.625,1
+Clinical model,-1.744,0
+Clinical model,0.416,1
+Clinical model,2.18,1
+Clinical model,-0.03129,0
+Clinical model,-1.545,0
+Clinical model,-0.5218,1
+Clinical model,-0.2653,0
+Clinical model,1.137,0
+Clinical model,0.3759,0
+Clinical model,-0.8197,0
+Clinical model,0.6259,0
+Clinical model,-0.5859,0
+Clinical model,-0.8931,0
+Clinical model,1.106,1
+Clinical model,1.132,0
+Clinical model,1.816,0
+Clinical model,0.5634,1
+Clinical model,0.9778,0
+Clinical model,-0.01445,1
+Clinical model,0.901,1
+Clinical model,1.218,0
+Clinical model,-0.7875,0
+Clinical model,0.9585,1
+Clinical model,-1.338,0
+Clinical model,-0.2531,1
+Clinical model,-0.7392,1
+Clinical model,0.6806,0
+Clinical model,1.808,1
+Clinical model,1.312,1
+Clinical model,-1.248,0
+Clinical model,0.1022,0
+Clinical model,0.5036,0
+Clinical + ctDNA,-0.8054,0
+Clinical + ctDNA,0.8169,0
+Clinical + ctDNA,-1.522,0
+Clinical + ctDNA,-0.3864,0
+Clinical + ctDNA,-0.4783,0
+Clinical + ctDNA,2.537,0
+Clinical + ctDNA,0.6233,0
+Clinical + ctDNA,2.389,1
+Clinical + ctDNA,0.4237,0
+Clinical + ctDNA,-1.549,0
+Clinical + ctDNA,-0.3801,0
+Clinical + ctDNA,2.179,1
+Clinical + ctDNA,-0.6655,0
+Clinical + ctDNA,-0.09375,0
+Clinical + ctDNA,0.06418,0
+Clinical + ctDNA,0.1208,0
+Clinical + ctDNA,-1.343,0
+Clinical + ctDNA,-0.1013,0
+Clinical + ctDNA,-1.569,0
+Clinical + ctDNA,1.399,0
+Clinical + ctDNA,-0.7418,0
+Clinical + ctDNA,2.272,0
+Clinical + ctDNA,-2.023,0
+Clinical + ctDNA,1.556,0
+Clinical + ctDNA,-0.6252,0
+Clinical + ctDNA,1.358,1
+Clinical + ctDNA,1.263,1
+Clinical + ctDNA,-0.1762,0
+Clinical + ctDNA,0.6632,0
+Clinical + ctDNA,-0.1181,0
+Clinical + ctDNA,-0.7129,0
+Clinical + ctDNA,2.491,1
+Clinical + ctDNA,0.9433,1
+Clinical + ctDNA,0.02373,1
+Clinical + ctDNA,2.479,1
+Clinical + ctDNA,-0.9888,0
+Clinical + ctDNA,-1.841,0
+Clinical + ctDNA,0.8954,0
+Clinical + ctDNA,-0.314,0
+Clinical + ctDNA,0.9235,0
+Clinical + ctDNA,0.608,0
+Clinical + ctDNA,1.67,0
+Clinical + ctDNA,-0.2414,0
+Clinical + ctDNA,0.5728,0
+Clinical + ctDNA,0.6848,0
+Clinical + ctDNA,2.879,1
+Clinical + ctDNA,1.389,1
+Clinical + ctDNA,-0.2523,0
+Clinical + ctDNA,-0.3508,0
+Clinical + ctDNA,0.03594,0
+Clinical + ctDNA,-1.103,0
+Clinical + ctDNA,1.335,1
+Clinical + ctDNA,1.171,0
+Clinical + ctDNA,-0.07373,0
+Clinical + ctDNA,1.301,0
+Clinical + ctDNA,1.771,1
+Clinical + ctDNA,0.09344,0
+Clinical + ctDNA,0.2126,0
+Clinical + ctDNA,-0.9895,0
+Clinical + ctDNA,3.02,1
+Clinical + ctDNA,-2.083,0
+Clinical + ctDNA,0.6173,0
+Clinical + ctDNA,0.1461,0
+Clinical + ctDNA,0.7191,0
+Clinical + ctDNA,-1.32,0
+Clinical + ctDNA,-1.574,0
+Clinical + ctDNA,1.971,1
+Clinical + ctDNA,-1.875,0
+Clinical + ctDNA,0.7121,1
+Clinical + ctDNA,0.942,0
+Clinical + ctDNA,0.7238,1
+Clinical + ctDNA,3.815,1
+Clinical + ctDNA,0.4689,1
+Clinical + ctDNA,0.2296,0
+Clinical + ctDNA,0.1596,0
+Clinical + ctDNA,1.703,1
+Clinical + ctDNA,-0.217,1
+Clinical + ctDNA,-0.6167,1
+Clinical + ctDNA,0.6192,0
+Clinical + ctDNA,2.195,1
+Clinical + ctDNA,-0.8391,0
+Clinical + ctDNA,0.8309,1
+Clinical + ctDNA,-1.434,0
+Clinical + ctDNA,0.93,0
+Clinical + ctDNA,1.127,1
+Clinical + ctDNA,1.977,0
+Clinical + ctDNA,1.082,1
+Clinical + ctDNA,-1.12,0
+Clinical + ctDNA,1.357,0
+Clinical + ctDNA,2.123,0
+Clinical + ctDNA,0.313,0
+Clinical + ctDNA,-0.2061,0
+Clinical + ctDNA,-0.8092,0
+Clinical + ctDNA,0.484,1
+Clinical + ctDNA,-0.8007,0
+Clinical + ctDNA,-0.168,0
+Clinical + ctDNA,0.5957,1
+Clinical + ctDNA,0.4115,0
+Clinical + ctDNA,1.457,1
+Clinical + ctDNA,2.057,0
+Clinical + ctDNA,-0.475,0
+Clinical + ctDNA,0.3279,0
+Clinical + ctDNA,-1.338,0
+Clinical + ctDNA,-0.6677,0
+Clinical + ctDNA,0.6393,0
+Clinical + ctDNA,0.9048,0
+Clinical + ctDNA,1.294,1
+Clinical + ctDNA,-0.4842,0
+Clinical + ctDNA,0.8546,1
+Clinical + ctDNA,1.342,1
+Clinical + ctDNA,-0.6633,0
+Clinical + ctDNA,2.548,1
+Clinical + ctDNA,-0.4632,0
+Clinical + ctDNA,0.8164,1
+Clinical + ctDNA,-0.761,0
+Clinical + ctDNA,2.094,1
+Clinical + ctDNA,2.075,1
+Clinical + ctDNA,2.46,1
+Clinical + ctDNA,-0.3592,0
+Clinical + ctDNA,-0.9016,0
+Clinical + ctDNA,-0.3453,0
+Clinical + ctDNA,0.1518,0
+Clinical + ctDNA,1.51,1
+Clinical + ctDNA,2.198,1
+Clinical + ctDNA,-1.126,0
+Clinical + ctDNA,0.6825,0
+Clinical + ctDNA,0.6565,0
+Clinical + ctDNA,1.588,0
+Clinical + ctDNA,0.7435,0
+Clinical + ctDNA,-0.357,0
+Clinical + ctDNA,-0.7659,0
+Clinical + ctDNA,-0.1894,0
+Clinical + ctDNA,-0.1114,0
+Clinical + ctDNA,-1.689,0
+Clinical + ctDNA,-2.467,0
+Clinical + ctDNA,1.004,0
+Clinical + ctDNA,3.283,0
+Clinical + ctDNA,0.481,1
+Clinical + ctDNA,1.156,1
+Clinical + ctDNA,-1.819,0
+Clinical + ctDNA,0.2967,0
+Clinical + ctDNA,-0.3942,0
+Clinical + ctDNA,-1.627,0
+Clinical + ctDNA,-0.923,0
+Clinical + ctDNA,-1.283,0
+Clinical + ctDNA,0.3756,1
+Clinical + ctDNA,0.2219,0
+Clinical + ctDNA,0.3431,0
+Clinical + ctDNA,0.421,1
+Clinical + ctDNA,0.307,0
+Clinical + ctDNA,-0.8216,0
+Clinical + ctDNA,1.438,1
+Clinical + ctDNA,-1.052,0
+Clinical + ctDNA,1.71,0
+Clinical + ctDNA,0.8758,1
+Clinical + ctDNA,0.04487,0
+Clinical + ctDNA,0.1468,0
+Clinical + ctDNA,1.375,0
+Clinical + ctDNA,0.396,0
+Clinical + ctDNA,-1.356,0
+Clinical + ctDNA,1.968,0
+Clinical + ctDNA,-0.803,0
+Clinical + ctDNA,1.16,1
+Clinical + ctDNA,0.9964,0
+Clinical + ctDNA,2.044,1
+Clinical + ctDNA,0.5262,1
+Clinical + ctDNA,0.2932,1
+Clinical + ctDNA,-0.4167,0
+Clinical + ctDNA,-0.7817,0
+Clinical + ctDNA,1.493,1
+Clinical + ctDNA,1.477,1
+Clinical + ctDNA,0.58,0
+Clinical + ctDNA,1.192,0
+Clinical + ctDNA,1.309,1
+Clinical + ctDNA,0.02572,0
+Clinical + ctDNA,0.2443,0
+Clinical + ctDNA,1.775,1
+Clinical + ctDNA,0.7579,0
+Clinical + ctDNA,0.06734,0
+Clinical + ctDNA,2.799,0
+Clinical + ctDNA,-0.09501,1
+Clinical + ctDNA,0.0658,0
+Clinical + ctDNA,0.4989,0
+Clinical + ctDNA,1.898,0
+Clinical + ctDNA,-0.7986,0
+Clinical + ctDNA,0.9919,1
+Clinical + ctDNA,-0.2567,0
+Clinical + ctDNA,0.9938,0
+Clinical + ctDNA,2.233,0
+Clinical + ctDNA,0.04182,1
+Clinical + ctDNA,1.66,0
+Clinical + ctDNA,0.8048,1
+Clinical + ctDNA,0.005785,0
+Clinical + ctDNA,-1.737,0
+Clinical + ctDNA,2.458,1
+Clinical + ctDNA,1.49,1
+Clinical + ctDNA,1.086,0
+Clinical + ctDNA,1.054,1
+Clinical + ctDNA,2.9,1
+Clinical + ctDNA,0.3668,0
+Clinical + ctDNA,1.95,0
+Clinical + ctDNA,-1.179,0
+Clinical + ctDNA,-0.7182,0
+Clinical + ctDNA,0.5653,0
+Clinical + ctDNA,1.993,0
+Clinical + ctDNA,1.873,0
+Clinical + ctDNA,0.6651,0
+Clinical + ctDNA,-1.402,0
+Clinical + ctDNA,-0.3143,0
+Clinical + ctDNA,1.937,1
+Clinical + ctDNA,1.443,0
+Clinical + ctDNA,1.472,1
+Clinical + ctDNA,-0.0002617,0
+Clinical + ctDNA,0.6195,0
+Clinical + ctDNA,0.5463,0
+Clinical + ctDNA,-0.8488,0
+Clinical + ctDNA,1.917,1
+Clinical + ctDNA,1.883,0
+Clinical + ctDNA,-0.3841,0
+Clinical + ctDNA,-0.3423,0
+Clinical + ctDNA,-0.4836,0
+Clinical + ctDNA,0.7163,1
+Clinical + ctDNA,-0.6338,0
+Clinical + ctDNA,0.1062,0
+Clinical + ctDNA,0.2176,0
+Clinical + ctDNA,0.2549,0
+Clinical + ctDNA,0.8771,0
+Clinical + ctDNA,0.9134,0
+Clinical + ctDNA,0.06552,0
+Clinical + ctDNA,-0.08751,0
+Clinical + ctDNA,0.7761,0
+Clinical + ctDNA,0.696,0
+Clinical + ctDNA,1.72,1
+Clinical + ctDNA,1.95,0
+Clinical + ctDNA,1.28,0
+Clinical + ctDNA,-0.8547,0
+Clinical + ctDNA,-1.89,0
+Clinical + ctDNA,2.642,0
+Clinical + ctDNA,0.5766,0
+Clinical + ctDNA,-0.1265,0
+Clinical + ctDNA,1.057,0
+Clinical + ctDNA,-1.626,0
+Clinical + ctDNA,0.2515,0
+Clinical + ctDNA,-1.154,0
+Clinical + ctDNA,0.5788,0
+Clinical + ctDNA,-1.773,0
+Clinical + ctDNA,1.324,0
+Clinical + ctDNA,0.4668,1
+Clinical + ctDNA,1.915,1
+Clinical + ctDNA,0.7465,0
+Clinical + ctDNA,-0.5431,1
+Clinical + ctDNA,-0.6613,0
+Clinical + ctDNA,-0.4274,0
+Clinical + ctDNA,1.137,1
+Clinical + ctDNA,-0.5693,0
+Clinical + ctDNA,0.9088,0
+Clinical + ctDNA,0.5447,1
+Clinical + ctDNA,0.7857,0
+Clinical + ctDNA,0.878,0
+Clinical + ctDNA,-0.8804,0
+Clinical + ctDNA,-1.438,0
+Clinical + ctDNA,1.547,1
+Clinical + ctDNA,0.7976,1
+Clinical + ctDNA,1.872,1
+Clinical + ctDNA,0.2944,0
+Clinical + ctDNA,0.07122,0
+Clinical + ctDNA,-0.6417,0
+Clinical + ctDNA,1.932,1
+Clinical + ctDNA,1.269,1
+Clinical + ctDNA,-0.165,1
+Clinical + ctDNA,2.869,1
+Clinical + ctDNA,2.328,1
+Clinical + ctDNA,-0.497,0
+Clinical + ctDNA,-0.06824,0
+Clinical + ctDNA,-0.0107,0
+Clinical + ctDNA,-1.461,0
+Clinical + ctDNA,2.475,0
+Clinical + ctDNA,-0.3774,0
+Clinical + ctDNA,-0.4314,0
+Clinical + ctDNA,-0.596,0
+Clinical + ctDNA,0.3758,0
+Clinical + ctDNA,-0.6482,0
+Clinical + ctDNA,-0.001444,0
+Clinical + ctDNA,-0.8592,0
+Clinical + ctDNA,0.3071,0
+Clinical + ctDNA,0.9099,1
+Clinical + ctDNA,0.2289,0
+Clinical + ctDNA,-0.9205,0
+Clinical + ctDNA,-0.1407,0
+Clinical + ctDNA,0.9421,0
+Clinical + ctDNA,-1.105,0
+Clinical + ctDNA,2.205,1
+Clinical + ctDNA,-0.384,0
+Clinical + ctDNA,-0.5921,0
+Clinical + ctDNA,-0.9732,0
+Clinical + ctDNA,1.823,0
+Clinical + ctDNA,1.441,0
+Clinical + ctDNA,1.869,1
+Clinical + ctDNA,0.3969,0
+Clinical + ctDNA,1.096,0
+Clinical + ctDNA,1.891,1
+Clinical + ctDNA,2.384,1
+Clinical + ctDNA,0.8944,0
+Clinical + ctDNA,-0.2057,0
+Clinical + ctDNA,-1.355,0
+Clinical + ctDNA,-0.6096,0
+Clinical + ctDNA,0.08912,0
+Clinical + ctDNA,-0.7143,0
+Clinical + ctDNA,-0.7712,0
+Clinical + ctDNA,0.01765,0
+Clinical + ctDNA,-0.5608,0
+Clinical + ctDNA,-0.5926,0
+Clinical + ctDNA,2.31,1
+Clinical + ctDNA,0.1862,0
+Clinical + ctDNA,0.9115,1
+Clinical + ctDNA,2.502,1
+Clinical + ctDNA,-0.3089,0
+Clinical + ctDNA,-0.4474,0
+Clinical + ctDNA,2.003,1
+Clinical + ctDNA,-0.613,0
+Clinical + ctDNA,1.919,1
+Clinical + ctDNA,0.4647,0
+Clinical + ctDNA,0.7506,1
+Clinical + ctDNA,1.635,1
+Clinical + ctDNA,0.8221,1
+Clinical + ctDNA,-0.311,0
+Clinical + ctDNA,-0.1768,0
+Clinical + ctDNA,0.9434,0
+Clinical + ctDNA,0.746,0
+Clinical + ctDNA,0.03846,1
+Clinical + ctDNA,-0.0794,0
+Clinical + ctDNA,-0.2191,0
+Clinical + ctDNA,0.3496,0
+Clinical + ctDNA,-1.511,0
+Clinical + ctDNA,-1.54,0
+Clinical + ctDNA,0.6098,0
+Clinical + ctDNA,1.081,0
+Clinical + ctDNA,0.9882,0
+Clinical + ctDNA,-0.9803,0
+Clinical + ctDNA,1.257,0
+Clinical + ctDNA,0.4766,1
+Clinical + ctDNA,0.1611,0
+Clinical + ctDNA,1.534,1
+Clinical + ctDNA,-0.4305,0
+Clinical + ctDNA,-0.791,0
+Clinical + ctDNA,0.6122,0
+Clinical + ctDNA,1.329,1
+Clinical + ctDNA,-1.353,0
+Clinical + ctDNA,-1.176,0
+Clinical + ctDNA,1.429,0
+Clinical + ctDNA,-1.627,0
+Clinical + ctDNA,2.093,1
+Clinical + ctDNA,1.228,1
+Clinical + ctDNA,-0.7515,1
+Clinical + ctDNA,-0.7742,0
+Clinical + ctDNA,1.047,1
+Clinical + ctDNA,0.285,1
+Clinical + ctDNA,0.4457,0
+Clinical + ctDNA,1.794,1
+Clinical + ctDNA,0.2558,1
+Clinical + ctDNA,1.003,1
+Clinical + ctDNA,0.04634,1
+Clinical + ctDNA,-0.9769,0
+Clinical + ctDNA,-0.0329,0
+Clinical + ctDNA,-0.655,0
+Clinical + ctDNA,0.1783,0
+Clinical + ctDNA,2.008,1
+Clinical + ctDNA,-0.5228,0
+Clinical + ctDNA,1.117,1
+Clinical + ctDNA,-0.6371,0
+Clinical + ctDNA,1.293,1
+Clinical + ctDNA,0.9428,0
+Clinical + ctDNA,-0.1446,0
+Clinical + ctDNA,1.35,0
+Clinical + ctDNA,-0.8432,0
+Clinical + ctDNA,3.019,1
+Clinical + ctDNA,2.162,1
+Clinical + ctDNA,-0.1876,0
+Clinical + ctDNA,-0.004118,0
+Clinical + ctDNA,1.467,1
+Clinical + ctDNA,-1.03,0
+Clinical + ctDNA,0.9296,0
+Clinical + ctDNA,-1.526,0
+Clinical + ctDNA,0.6404,0
+Clinical + ctDNA,0.2383,0
+Clinical + ctDNA,0.1202,0
+Clinical + ctDNA,0.648,0
+Clinical + ctDNA,0.9756,1
+Clinical + ctDNA,-1.536,0
+Clinical + ctDNA,0.05509,1
+Clinical + ctDNA,2.475,1
+Clinical + ctDNA,-1.171,0
+Clinical + ctDNA,-0.5921,0
+Clinical + ctDNA,0.6404,1
+Clinical + ctDNA,0.1051,0
+Clinical + ctDNA,-0.123,0
+Clinical + ctDNA,0.003233,0
+Clinical + ctDNA,0.5519,0
+Clinical + ctDNA,-0.6056,0
+Clinical + ctDNA,-0.1996,0
+Clinical + ctDNA,0.2855,0
+Clinical + ctDNA,0.1712,1
+Clinical + ctDNA,0.3791,0
+Clinical + ctDNA,1.25,0
+Clinical + ctDNA,1.672,1
+Clinical + ctDNA,1.53,0
+Clinical + ctDNA,0.9642,1
+Clinical + ctDNA,1.445,1
+Clinical + ctDNA,0.1396,0
+Clinical + ctDNA,-2.187,0
+Clinical + ctDNA,1.814,1
+Clinical + ctDNA,2.306,0
+Clinical + ctDNA,2.37,1
+Clinical + ctDNA,2.539,1
+Clinical + ctDNA,-1.342,0
+Clinical + ctDNA,1.596,1
+Clinical + ctDNA,-0.5154,1
+Clinical + ctDNA,-1.913,0
+Clinical + ctDNA,0.03056,0
+Clinical + ctDNA,-0.8568,0
+Combined model,-1.858,0
+Combined model,0.7187,0
+Combined model,0.7314,0
+Combined model,-0.9403,0
+Combined model,0.6643,0
+Combined model,1.726,0
+Combined model,1.584,0
+Combined model,2.003,1
+Combined model,-0.5894,0
+Combined model,-2.349,0
+Combined model,0.8252,0
+Combined model,1.235,1
+Combined model,-0.1038,0
+Combined model,1.697,0
+Combined model,0.6119,0
+Combined model,2.077,0
+Combined model,0.4889,0
+Combined model,-0.01196,0
+Combined model,-1.209,0
+Combined model,0.5485,0
+Combined model,0.08512,0
+Combined model,-1.999,0
+Combined model,0.1169,0
+Combined model,-1.059,0
+Combined model,-0.3785,0
+Combined model,1.349,1
+Combined model,2.595,1
+Combined model,1.656,0
+Combined model,0.2137,0
+Combined model,-2.79,0
+Combined model,0.03729,0
+Combined model,1.139,1
+Combined model,3.151,1
+Combined model,2.782,1
+Combined model,2.69,1
+Combined model,-0.6154,0
+Combined model,0.1335,0
+Combined model,-2.05,0
+Combined model,1.447,0
+Combined model,0.8341,0
+Combined model,-0.7462,0
+Combined model,0.4887,0
+Combined model,0.321,0
+Combined model,0.5597,0
+Combined model,0.1774,0
+Combined model,2.405,1
+Combined model,2.768,1
+Combined model,-0.6851,0
+Combined model,-0.857,0
+Combined model,-0.876,0
+Combined model,0.1196,0
+Combined model,1.304,1
+Combined model,0.1516,0
+Combined model,0.2382,0
+Combined model,-0.9396,0
+Combined model,2.434,1
+Combined model,0.1062,0
+Combined model,-0.2364,0
+Combined model,0.1523,0
+Combined model,0.4439,1
+Combined model,-0.6905,0
+Combined model,0.1003,0
+Combined model,0.9467,0
+Combined model,0.5417,0
+Combined model,0.3646,0
+Combined model,-0.417,0
+Combined model,0.1402,1
+Combined model,-2.749,0
+Combined model,2.352,1
+Combined model,1.336,0
+Combined model,1.546,1
+Combined model,1.739,1
+Combined model,1.388,1
+Combined model,-0.475,0
+Combined model,-0.7249,0
+Combined model,2.107,1
+Combined model,2.752,1
+Combined model,0.617,1
+Combined model,1.275,0
+Combined model,1.755,1
+Combined model,0.4439,0
+Combined model,1.771,1
+Combined model,-0.5897,0
+Combined model,-0.4112,0
+Combined model,2.934,1
+Combined model,1.496,0
+Combined model,1.968,1
+Combined model,0.2522,0
+Combined model,-0.6122,0
+Combined model,-0.4649,0
+Combined model,1.444,0
+Combined model,0.08655,0
+Combined model,-1.704,0
+Combined model,2.752,1
+Combined model,0.4181,0
+Combined model,0.9679,0
+Combined model,3.115,1
+Combined model,-0.7668,0
+Combined model,4.889,1
+Combined model,0.351,0
+Combined model,1.426,0
+Combined model,-1.093,0
+Combined model,-0.394,0
+Combined model,-0.236,0
+Combined model,0.4878,0
+Combined model,0.2977,0
+Combined model,1.88,1
+Combined model,-0.1716,0
+Combined model,2.9,1
+Combined model,2.177,1
+Combined model,-1.657,0
+Combined model,0.6865,1
+Combined model,1.161,0
+Combined model,3.658,1
+Combined model,-0.6108,0
+Combined model,2.345,1
+Combined model,2.756,1
+Combined model,1.332,1
+Combined model,-0.7824,0
+Combined model,-0.7095,0
+Combined model,0.3338,0
+Combined model,-0.399,0
+Combined model,1.389,1
+Combined model,0.4641,1
+Combined model,0.3257,0
+Combined model,1.72,0
+Combined model,-2.622,0
+Combined model,0.2464,0
+Combined model,0.4394,0
+Combined model,0.6149,0
+Combined model,0.2298,0
+Combined model,0.1732,0
+Combined model,-0.2097,0
+Combined model,0.1151,0
+Combined model,0.347,0
+Combined model,-1.698,0
+Combined model,1.272,0
+Combined model,1.677,1
+Combined model,2.456,1
+Combined model,0.9565,0
+Combined model,-0.1104,0
+Combined model,0.3937,0
+Combined model,-0.2503,0
+Combined model,-0.777,0
+Combined model,-0.6646,0
+Combined model,3.023,1
+Combined model,-1.747,0
+Combined model,-0.2737,0
+Combined model,4.199,1
+Combined model,-0.005038,0
+Combined model,-1.629,0
+Combined model,0.793,1
+Combined model,1.266,0
+Combined model,-1.017,0
+Combined model,2.435,1
+Combined model,-1.618,0
+Combined model,1.102,0
+Combined model,-0.5456,0
+Combined model,-0.2041,0
+Combined model,0.345,0
+Combined model,-0.3319,0
+Combined model,2.456,0
+Combined model,1.827,1
+Combined model,-1.08,0
+Combined model,1.291,1
+Combined model,1.281,1
+Combined model,0.9387,1
+Combined model,-0.3987,0
+Combined model,-0.6335,0
+Combined model,0.6983,1
+Combined model,2.519,1
+Combined model,0.9729,0
+Combined model,0.7427,0
+Combined model,1.424,1
+Combined model,0.3012,0
+Combined model,0.1228,0
+Combined model,1.517,1
+Combined model,1.528,0
+Combined model,-1.438,0
+Combined model,1.293,0
+Combined model,-0.088,1
+Combined model,0.254,0
+Combined model,0.5552,0
+Combined model,0.2889,0
+Combined model,-0.6468,0
+Combined model,1.933,1
+Combined model,-1.05,0
+Combined model,0.8615,0
+Combined model,0.722,0
+Combined model,1.663,1
+Combined model,0.3443,0
+Combined model,1.305,1
+Combined model,1.691,0
+Combined model,-0.9328,0
+Combined model,2.151,1
+Combined model,2.604,1
+Combined model,0.0547,0
+Combined model,2.39,1
+Combined model,1.2,1
+Combined model,1.757,0
+Combined model,1.197,0
+Combined model,1.659,0
+Combined model,1.033,0
+Combined model,1.18,0
+Combined model,-0.6222,0
+Combined model,-0.1006,0
+Combined model,2.336,0
+Combined model,-1.274,0
+Combined model,0.9474,0
+Combined model,4.034,1
+Combined model,-1.024,0
+Combined model,2.137,1
+Combined model,0.2228,0
+Combined model,0.9408,0
+Combined model,0.1337,0
+Combined model,0.1201,0
+Combined model,3.029,1
+Combined model,0.2689,0
+Combined model,1.347,0
+Combined model,-0.249,0
+Combined model,-1.212,0
+Combined model,2.255,1
+Combined model,1.835,0
+Combined model,-0.9194,0
+Combined model,0.7517,0
+Combined model,0.1651,0
+Combined model,0.369,0
+Combined model,-0.5885,0
+Combined model,0.4403,0
+Combined model,-1.504,0
+Combined model,0.6486,0
+Combined model,-0.6868,0
+Combined model,2.451,1
+Combined model,-1.146,0
+Combined model,-0.529,0
+Combined model,-0.6181,0
+Combined model,-0.407,0
+Combined model,-0.2654,0
+Combined model,0.3414,0
+Combined model,1.624,0
+Combined model,1.226,0
+Combined model,0.09242,0
+Combined model,0.8688,0
+Combined model,0.1033,0
+Combined model,-0.8147,0
+Combined model,0.4451,0
+Combined model,0.3739,0
+Combined model,1.041,1
+Combined model,3.255,1
+Combined model,-0.7575,0
+Combined model,3.389,1
+Combined model,0.211,0
+Combined model,-0.9513,0
+Combined model,1.515,1
+Combined model,1.848,0
+Combined model,-0.8728,0
+Combined model,1.055,1
+Combined model,0.5313,0
+Combined model,-0.1189,0
+Combined model,-0.4706,0
+Combined model,-0.05188,0
+Combined model,1.528,1
+Combined model,0.5127,1
+Combined model,0.8216,1
+Combined model,0.8971,0
+Combined model,1.576,0
+Combined model,0.3123,0
+Combined model,0.4524,1
+Combined model,1.741,1
+Combined model,3.021,1
+Combined model,1.348,1
+Combined model,0.7382,1
+Combined model,-1.94,0
+Combined model,-0.9177,0
+Combined model,-1.615,0
+Combined model,-0.433,0
+Combined model,-0.09816,0
+Combined model,-0.1974,0
+Combined model,0.2525,0
+Combined model,-0.04656,0
+Combined model,0.1361,0
+Combined model,0.2922,0
+Combined model,-0.2418,0
+Combined model,-0.2148,0
+Combined model,-0.436,0
+Combined model,2.79,1
+Combined model,0.2161,0
+Combined model,-0.9367,0
+Combined model,0.391,0
+Combined model,-0.9447,0
+Combined model,0.1159,0
+Combined model,2.737,1
+Combined model,1.848,0
+Combined model,0.7588,0
+Combined model,0.6479,0
+Combined model,0.07493,0
+Combined model,0.9371,0
+Combined model,1.804,1
+Combined model,-0.5711,0
+Combined model,-0.5792,0
+Combined model,2.131,1
+Combined model,4.231,1
+Combined model,0.3361,0
+Combined model,-1.434,0
+Combined model,0.519,0
+Combined model,1.873,0
+Combined model,1.867,0
+Combined model,0.317,0
+Combined model,0.1178,0
+Combined model,0.2679,0
+Combined model,0.08818,0
+Combined model,0.2484,0
+Combined model,1.536,1
+Combined model,0.287,0
+Combined model,-0.1947,1
+Combined model,0.266,1
+Combined model,-0.9753,0
+Combined model,1.263,0
+Combined model,3.111,1
+Combined model,-1.532,0
+Combined model,2.009,1
+Combined model,-1.151,0
+Combined model,2.424,1
+Combined model,2.086,1
+Combined model,0.9739,1
+Combined model,-0.2276,0
+Combined model,0.1496,0
+Combined model,0.691,0
+Combined model,1.06,0
+Combined model,-0.1071,1
+Combined model,-0.5991,0
+Combined model,0.03566,0
+Combined model,-0.741,0
+Combined model,-0.7144,0
+Combined model,-0.212,0
+Combined model,-0.1985,0
+Combined model,-1.062,0
+Combined model,-0.03436,0
+Combined model,1.037,0
+Combined model,0.5698,0
+Combined model,1.788,1
+Combined model,1.157,0
+Combined model,0.3363,1
+Combined model,1.377,0
+Combined model,0.117,0
+Combined model,0.8871,0
+Combined model,3.446,1
+Combined model,-0.9656,0
+Combined model,-0.3476,0
+Combined model,0.02228,0
+Combined model,1.628,0
+Combined model,1.633,1
+Combined model,2.918,1
+Combined model,2.52,1
+Combined model,0.4347,0
+Combined model,4.483,1
+Combined model,0.9379,1
+Combined model,0.1747,0
+Combined model,3.616,1
+Combined model,2.452,1
+Combined model,0.7519,1
+Combined model,2.661,1
+Combined model,1.901,0
+Combined model,0.5954,0
+Combined model,0.5094,0
+Combined model,-0.07983,0
+Combined model,0.8517,1
+Combined model,-0.4614,0
+Combined model,3.014,1
+Combined model,-0.9456,0
+Combined model,2.309,1
+Combined model,1.927,0
+Combined model,-1.257,0
+Combined model,0.9148,0
+Combined model,-2.248,0
+Combined model,1.354,1
+Combined model,1.971,1
+Combined model,-0.7463,0
+Combined model,-1.012,0
+Combined model,3.191,1
+Combined model,-0.7912,0
+Combined model,0.4501,0
+Combined model,-0.1156,0
+Combined model,-0.6392,0
+Combined model,0.9583,0
+Combined model,0.7902,0
+Combined model,0.5078,0
+Combined model,2.336,1
+Combined model,1.413,0
+Combined model,1.665,1
+Combined model,4.083,1
+Combined model,0.3987,0
+Combined model,-0.01197,0
+Combined model,0.9152,1
+Combined model,-1.605,0
+Combined model,2.674,0
+Combined model,0.00167,0
+Combined model,-1.663,0
+Combined model,0.7989,0
+Combined model,-0.6137,0
+Combined model,-0.1428,0
+Combined model,1.537,1
+Combined model,-0.296,0
+Combined model,-1.027,0
+Combined model,2.786,1
+Combined model,0.4205,0
+Combined model,-0.05477,1
+Combined model,2.488,1
+Combined model,-0.8059,0
+Combined model,-1.333,0
+Combined model,2.76,1
+Combined model,2.434,0
+Combined model,2.509,1
+Combined model,3.161,1
+Combined model,-0.8827,0
+Combined model,1.281,1
+Combined model,0.5068,1
+Combined model,-0.4534,0
+Combined model,0.5617,0
+Combined model,1.34,0

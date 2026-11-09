@@ -1,0 +1,21 @@
+{
+  "name_zh": "TiO$_2$ 多晶 XRD 谱",
+  "name_en": "TiO2 powder XRD patterns",
+  "domain": "materials",
+  "description_zh": "锐钛矿、金红石与混相 TiO$_2$ 的粉末 XRD（2θ = 20–80°），适合堆叠谱线与特征峰标注。",
+  "description_en": "Anatase, rutile and mixed-phase TiO2 powder XRD (2-theta 20-80 deg) for stacked patterns with peak labels.",
+  "mapping": {
+    "x": "two_theta",
+    "y": "intensity",
+    "group": "sample"
+  },
+  "recommended": [
+    {
+      "kind": "xrd",
+      "style": {
+        "domain": "materials",
+        "journal": "acs"
+      }
+    }
+  ]
+}

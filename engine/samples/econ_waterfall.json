@@ -1,0 +1,19 @@
+{
+  "name_zh": "利润桥瀑布图",
+  "name_en": "Profit-bridge waterfall",
+  "domain": "economics",
+  "description_zh": "从收入到净利润的 7 阶段利润桥（USD 百万），适合累计连接与正负配色。",
+  "description_en": "A seven-stage profit bridge from revenue to net income in USD millions for cumulative connectors and signed colours.",
+  "mapping": {
+    "x": "stage",
+    "y": "delta"
+  },
+  "recommended": [
+    {
+      "kind": "waterfall",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}

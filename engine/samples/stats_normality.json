@@ -1,0 +1,21 @@
+{
+  "name_zh": "正态性检验数据",
+  "name_en": "Normality-check data",
+  "domain": "statistics",
+  "description_zh": "对照组近似正态、处理组右偏的两个样本，适合 Q–Q 图与正态性检验。",
+  "description_en": "One near-normal control and one right-skewed treatment sample for Q-Q plots and normality tests.",
+  "mapping": {
+    "x": "group",
+    "y": "value"
+  },
+  "recommended": [
+    {
+      "kind": "qq",
+      "style": {
+        "domain": "math",
+        "journal": "aps"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

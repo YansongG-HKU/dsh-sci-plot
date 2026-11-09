@@ -1,0 +1,17 @@
+true_label,predicted_label,count
+Benign,Benign,186
+Benign,Atypical,9
+Benign,Suspicious,3
+Benign,Malignant,2
+Atypical,Benign,14
+Atypical,Atypical,164
+Atypical,Suspicious,17
+Atypical,Malignant,5
+Suspicious,Benign,3
+Suspicious,Atypical,19
+Suspicious,Suspicious,161
+Suspicious,Malignant,17
+Malignant,Benign,1
+Malignant,Atypical,6
+Malignant,Suspicious,18
+Malignant,Malignant,175

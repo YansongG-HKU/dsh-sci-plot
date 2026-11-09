@@ -1,0 +1,22 @@
+{
+  "name_zh": "剂量-反应曲线数据",
+  "name_en": "Dose-response data",
+  "domain": "life-science",
+  "description_zh": "两种化合物 12 个对数浓度梯度下的细胞活力（每浓度 3 复孔，%）用于 4PL 拟合。",
+  "description_en": "Viability for two compounds across 12 log-spaced concentrations (triplicates, %) for 4PL fitting.",
+  "mapping": {
+    "x": "concentration",
+    "y": "response",
+    "group": "compound"
+  },
+  "recommended": [
+    {
+      "kind": "dose_response",
+      "style": {
+        "domain": "life-science",
+        "journal": "nature"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

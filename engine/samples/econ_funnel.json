@@ -1,0 +1,20 @@
+{
+  "name_zh": "渠道转化率漏斗图（率 vs 样本量）",
+  "name_en": "Channel conversion funnel (rate vs sample size)",
+  "domain": "economics",
+  "description_zh": "10 个获客渠道的转化率与样本量，含合并期望线与 ±2 SE 置信区间；小样本渠道偏离显著。",
+  "description_en": "Conversion rate against sample size for ten acquisition channels with a pooled expectation and +/-2 SE limits; small channels deviate significantly.",
+  "mapping": {
+    "x": "n",
+    "y": "conversion_pct",
+    "label": "channel"
+  },
+  "recommended": [
+    {
+      "kind": "funnel",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}

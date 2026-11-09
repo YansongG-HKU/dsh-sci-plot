@@ -1,0 +1,21 @@
+{
+  "name_zh": "天线方向图（E/H 面）",
+  "name_en": "Antenna radiation patterns (E/H plane)",
+  "domain": "physics",
+  "description_zh": "E 面与 H 面归一化增益（0–360°，主瓣 0°、后瓣与副瓣），适合极坐标曲线与方向刻度。",
+  "description_en": "Normalized E-plane and H-plane gain over 0-360 deg with a broadside main lobe for polar plots and azimuth ticks.",
+  "mapping": {
+    "x": "angle_deg",
+    "y": "gain_db",
+    "group": "plane"
+  },
+  "recommended": [
+    {
+      "kind": "polar",
+      "style": {
+        "domain": "physics",
+        "journal": "aps"
+      }
+    }
+  ]
+}

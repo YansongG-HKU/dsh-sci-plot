@@ -1,0 +1,22 @@
+{
+  "name_zh": "ROC 曲线（三模型）",
+  "name_en": "ROC curves (three models)",
+  "domain": "clinical",
+  "description_zh": "临床模型、ctDNA 模型与联合模型预测 12 个月复发的 ROC 曲线。",
+  "description_en": "ROC curves for clinical, ctDNA and combined models predicting 12-month recurrence.",
+  "mapping": {
+    "x": "fpr",
+    "y": "tpr",
+    "group": "model"
+  },
+  "recommended": [
+    {
+      "kind": "roc",
+      "style": {
+        "domain": "clinical",
+        "journal": "nejm"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

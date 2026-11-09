@@ -1,0 +1,22 @@
+{
+  "name_zh": "单细胞标志基因表达矩阵",
+  "name_en": "Marker-gene expression matrix",
+  "domain": "omics",
+  "description_zh": "26 个免疫/基质/上皮/增殖标志基因在 12 个样本中的表达（长表），行聚类结构明显。",
+  "description_en": "Expression of 26 immune/stromal/epithelial/proliferation markers across 12 samples (long form) with clear row clusters.",
+  "mapping": {
+    "row": "gene",
+    "col": "sample",
+    "value": "value"
+  },
+  "recommended": [
+    {
+      "kind": "cluster_heatmap",
+      "style": {
+        "domain": "omics",
+        "journal": "cell"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

@@ -1,0 +1,11 @@
+treatment,relative_viability_pct,sem,sex
+Vehicle,103.03,2.36,Male
+Vehicle,110.48,2.91,Female
+Compound 1,70.2,2.83,Male
+Compound 1,79.71,1.8,Female
+Compound 2,54.59,1.76,Male
+Compound 2,59.75,2.33,Female
+Compound 3,83.44,2.6,Male
+Compound 3,86.49,2.1,Female
+Combination,40.31,1.14,Male
+Combination,42.88,1.08,Female

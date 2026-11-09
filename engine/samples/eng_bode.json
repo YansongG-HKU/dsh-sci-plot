@@ -1,0 +1,21 @@
+{
+  "name_zh": "二阶系统 Bode 图",
+  "name_en": "Second-order Bode plot",
+  "domain": "engineering",
+  "description_zh": "ζ = 0.3、ω$_n$ = 1 kHz 的二阶低通频响（0.1 Hz–1 MHz），含谐振峰与 −90° 相位过渡。",
+  "description_en": "Frequency response of a second-order low-pass (zeta = 0.3, fn = 1 kHz) from 0.1 Hz to 1 MHz with resonance and -90 deg phase transition.",
+  "mapping": {
+    "x": "frequency_hz",
+    "y": "magnitude_db",
+    "phase": "phase_deg"
+  },
+  "recommended": [
+    {
+      "kind": "bode",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name_zh": "X̄ 控制图（3 个失控点）",
+  "name_en": "X-bar control chart with out-of-control points",
+  "domain": "engineering",
+  "description_zh": "60 个样本的均值控制图（CL 50.0、UCL/LCL ±3σ），含 3 个超限点，适合中心线与超限高亮。",
+  "description_en": "A 60-sample X-bar chart (CL 50.0, +/-3 sigma limits) with three out-of-control points for centre-line and violation highlighting.",
+  "mapping": {
+    "x": "sample_index",
+    "y": "value",
+    "ucl": "ucl",
+    "lcl": "lcl",
+    "center": "center"
+  },
+  "recommended": [
+    {
+      "kind": "control_chart",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

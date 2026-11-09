@@ -1,0 +1,15 @@
+# dsh-sci-plot bundle layer.
+#
+# One Host plugin row owning the engine bridge, the figure store, the sci_plot_*
+# agent tools and the loopback panel routes. The Client half (dsh.client) renders
+# the sidebar panel and calls the same Host service.
+- insert:
+    - id: dsh-sci-plot
+      name: dsh-sci-plot
+      config:
+        defaultDomain: life-science
+        defaultJournal: nature
+        defaultPalette: okabe-ito
+        defaultFont: arial
+        defaultSize: single
+        defaultDpi: 300

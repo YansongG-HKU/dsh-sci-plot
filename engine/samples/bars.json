@@ -1,0 +1,32 @@
+{
+  "name_zh": "细胞活力分组柱状图",
+  "name_en": "Cell viability grouped bars",
+  "domain": "life-science",
+  "description_zh": "五种处理下的相对细胞活力与 SEM，适合柱状、条形、误差棒与棒棒糖图。",
+  "description_en": "Relative viability for five treatments with SEM, for bars, horizontal bars, error bars and lollipops.",
+  "mapping": {
+    "x": "treatment",
+    "y": "relative_viability_pct",
+    "yerr": "sem"
+  },
+  "recommended": [
+    {
+      "kind": "bar",
+      "style": {
+        "domain": "life-science"
+      }
+    },
+    {
+      "kind": "bar_h",
+      "style": {
+        "domain": "clinical"
+      }
+    },
+    {
+      "kind": "lollipop",
+      "style": {
+        "domain": "general"
+      }
+    }
+  ]
+}

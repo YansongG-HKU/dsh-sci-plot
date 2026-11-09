@@ -1,0 +1,21 @@
+{
+  "name_zh": "电化学阻抗 Nyquist 谱",
+  "name_en": "Electrochemical Nyquist impedance",
+  "domain": "engineering",
+  "description_zh": "Randles 型阻抗谱（R$_s$ = 10 Ω、R$_{ct}$ = 200 Ω、CPE α = 0.82），适合等比例坐标与频率方向标注。",
+  "description_en": "Randles-type impedance spectrum (Rs = 10 ohm, Rct = 200 ohm, CPE alpha = 0.82) for equal-aspect Nyquist plots with frequency direction.",
+  "mapping": {
+    "x": "real",
+    "y": "imag",
+    "frequency": "frequency"
+  },
+  "recommended": [
+    {
+      "kind": "nyquist",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

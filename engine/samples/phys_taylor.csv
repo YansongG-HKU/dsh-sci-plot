@@ -1,0 +1,6 @@
+model,correlation,std_ratio,rmsd
+WRF-Chem,0.82,1.18,0.676
+GEOS-Chem,0.91,0.96,0.418
+CMAQ,0.88,1.07,0.512
+CAM-chem,0.76,0.82,0.653
+MERRA-2,0.94,1.02,0.35

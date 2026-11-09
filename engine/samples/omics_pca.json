@@ -1,0 +1,20 @@
+{
+  "name_zh": "PCA 原始特征矩阵",
+  "name_en": "PCA feature matrix",
+  "domain": "omics",
+  "description_zh": "三组受试者（健康/应答/无应答）的 8 维表达特征（n=150），用于主成分分析。",
+  "description_en": "Eight-dimensional expression features for three groups (healthy/responder/non-responder, n=150) for PCA.",
+  "mapping": {
+    "group": "group"
+  },
+  "recommended": [
+    {
+      "kind": "pca",
+      "style": {
+        "domain": "omics",
+        "journal": "nature"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

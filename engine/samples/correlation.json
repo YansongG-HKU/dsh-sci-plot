@@ -1,0 +1,22 @@
+{
+  "name_zh": "代谢指标相关性",
+  "name_en": "Metabolic correlations",
+  "domain": "clinical",
+  "description_zh": "年龄、BMI、血糖、胰岛素与 CRP 的相关结构，适合相关矩阵与散点矩阵。",
+  "description_en": "Correlation structure of age, BMI, glucose, insulin and CRP for correlograms and pair plots.",
+  "mapping": {},
+  "recommended": [
+    {
+      "kind": "corr_heatmap",
+      "style": {
+        "domain": "clinical"
+      }
+    },
+    {
+      "kind": "pairplot",
+      "style": {
+        "domain": "life-science"
+      }
+    }
+  ]
+}

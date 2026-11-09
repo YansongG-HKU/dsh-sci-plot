@@ -1,0 +1,21 @@
+{
+  "name_zh": "Precision-Recall 曲线数据",
+  "name_en": "Precision-recall curve data",
+  "domain": "clinical",
+  "description_zh": "三个风险模型的连续评分与 12 个月复发结局（阳性率约 30%），用于 PR 曲线。",
+  "description_en": "Continuous risk scores and 12-month recurrence labels (~30% prevalence) for three models.",
+  "mapping": {
+    "score": "score",
+    "outcome": "outcome",
+    "group": "model"
+  },
+  "recommended": [
+    {
+      "kind": "pr_curve",
+      "style": {
+        "domain": "clinical"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

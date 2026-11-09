@@ -1,0 +1,22 @@
+{
+  "name_zh": "t-SNE 潜在空间嵌入",
+  "name_en": "Latent-space t-SNE embedding",
+  "domain": "ml",
+  "description_zh": "四类组织病理切片的 t-SNE 潜在空间嵌入，类别间存在真实重叠。",
+  "description_en": "t-SNE embedding of four histopathology classes with realistic class overlap.",
+  "mapping": {
+    "x": "x",
+    "y": "y",
+    "group": "cluster"
+  },
+  "recommended": [
+    {
+      "kind": "embedding",
+      "style": {
+        "domain": "ml",
+        "journal": "neurips"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

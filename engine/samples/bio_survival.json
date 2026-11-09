@@ -1,0 +1,22 @@
+{
+  "name_zh": "Kaplan-Meier 生存数据",
+  "name_en": "Kaplan-Meier survival data",
+  "domain": "clinical",
+  "description_zh": "两组晚期肿瘤患者的随访时间与事件状态（n=112/组，随机删失）。",
+  "description_en": "Follow-up time and event status for two advanced-cancer arms (n=112 each, random censoring).",
+  "mapping": {
+    "time": "time",
+    "event": "event",
+    "group": "arm"
+  },
+  "recommended": [
+    {
+      "kind": "km_survival",
+      "style": {
+        "domain": "clinical",
+        "journal": "nejm"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

@@ -1,0 +1,40 @@
+time_h,od600,condition
+0,0.0897,Control
+4,0.7114,Control
+8,2.2615,Control
+12,5.4542,Control
+16,10.6523,Control
+20,17.5274,Control
+24,25.1508,Control
+28,32.644,Control
+32,39.5849,Control
+36,45.9787,Control
+40,51.9428,Control
+44,57.6061,Control
+48,63.1343,Control
+0,0.0417,Drug A
+4,0.6495,Drug A
+8,1.9802,Drug A
+12,4.5617,Drug A
+16,8.4587,Drug A
+20,13.2019,Drug A
+24,18.2282,Drug A
+28,23.0429,Drug A
+32,27.5015,Drug A
+36,31.6531,Drug A
+40,35.5865,Drug A
+44,39.4064,Drug A
+48,43.1257,Drug A
+0,0.0979,Drug B
+4,0.6561,Drug B
+8,2.1756,Drug B
+12,5.3097,Drug B
+16,10.9076,Drug B
+20,18.9742,Drug B
+24,28.491,Drug B
+28,38.2379,Drug B
+32,47.3482,Drug B
+36,55.6811,Drug B
+40,63.2625,Drug B
+44,70.4457,Drug B
+48,77.3434,Drug B

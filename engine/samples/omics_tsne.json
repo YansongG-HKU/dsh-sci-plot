@@ -1,0 +1,21 @@
+{
+  "name_zh": "t-SNE 降维嵌入",
+  "name_en": "t-SNE embedding",
+  "domain": "omics",
+  "description_zh": "220 个细胞的 t-SNE 二维嵌入与四个细胞谱系标签。",
+  "description_en": "Two-dimensional t-SNE embedding of 220 cells with four lineage labels.",
+  "mapping": {
+    "x": "x",
+    "y": "y",
+    "group": "cluster"
+  },
+  "recommended": [
+    {
+      "kind": "tsne",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

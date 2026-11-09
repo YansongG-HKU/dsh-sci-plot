@@ -1,0 +1,27 @@
+{
+  "name_zh": "GDP 增速时间序列与 95% 置信带",
+  "name_en": "GDP growth time series with 95% band",
+  "domain": "economics",
+  "description_zh": "60 个月的 GDP 同比增速与置信区间，含一次衰退冲击，适合折线 + 置信带。",
+  "description_en": "60 months of year-on-year GDP growth with a confidence band and one recession shock for line-plus-band time series.",
+  "mapping": {
+    "x": "month",
+    "y": "gdp_growth_pct",
+    "y_lower": "ci_low",
+    "y_upper": "ci_high"
+  },
+  "recommended": [
+    {
+      "kind": "time_series",
+      "style": {
+        "domain": "economics"
+      }
+    },
+    {
+      "kind": "line",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}

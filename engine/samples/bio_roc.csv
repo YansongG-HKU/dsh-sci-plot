@@ -1,0 +1,124 @@
+model,fpr,tpr
+Clinical model,0,0
+Clinical model,0.025,0.2408
+Clinical model,0.05,0.2683
+Clinical model,0.075,0.2781
+Clinical model,0.1,0.4806
+Clinical model,0.125,0.4806
+Clinical model,0.15,0.4806
+Clinical model,0.175,0.4829
+Clinical model,0.2,0.5021
+Clinical model,0.225,0.5569
+Clinical model,0.25,0.607
+Clinical model,0.275,0.6334
+Clinical model,0.3,0.6334
+Clinical model,0.325,0.6399
+Clinical model,0.35,0.6399
+Clinical model,0.375,0.6658
+Clinical model,0.4,0.7015
+Clinical model,0.425,0.7015
+Clinical model,0.45,0.7925
+Clinical model,0.475,0.7925
+Clinical model,0.5,0.7925
+Clinical model,0.525,0.7925
+Clinical model,0.55,0.7925
+Clinical model,0.575,0.8605
+Clinical model,0.6,0.8619
+Clinical model,0.625,0.8888
+Clinical model,0.65,0.8888
+Clinical model,0.675,0.8888
+Clinical model,0.7,0.8888
+Clinical model,0.725,0.8888
+Clinical model,0.75,0.8888
+Clinical model,0.775,0.943
+Clinical model,0.8,0.943
+Clinical model,0.825,0.943
+Clinical model,0.85,0.943
+Clinical model,0.875,0.9812
+Clinical model,0.9,0.9812
+Clinical model,0.925,0.9812
+Clinical model,0.95,0.9898
+Clinical model,0.975,0.9898
+Clinical model,1,1
+Clinical + ctDNA,0,0
+Clinical + ctDNA,0.025,0.4027
+Clinical + ctDNA,0.05,0.5401
+Clinical + ctDNA,0.075,0.5689
+Clinical + ctDNA,0.1,0.5689
+Clinical + ctDNA,0.125,0.6
+Clinical + ctDNA,0.15,0.6453
+Clinical + ctDNA,0.175,0.6739
+Clinical + ctDNA,0.2,0.7165
+Clinical + ctDNA,0.225,0.7165
+Clinical + ctDNA,0.25,0.7422
+Clinical + ctDNA,0.275,0.7422
+Clinical + ctDNA,0.3,0.7422
+Clinical + ctDNA,0.325,0.7433
+Clinical + ctDNA,0.35,0.7602
+Clinical + ctDNA,0.375,0.8019
+Clinical + ctDNA,0.4,0.8019
+Clinical + ctDNA,0.425,0.8142
+Clinical + ctDNA,0.45,0.8737
+Clinical + ctDNA,0.475,0.8737
+Clinical + ctDNA,0.5,0.8784
+Clinical + ctDNA,0.525,0.8784
+Clinical + ctDNA,0.55,0.8784
+Clinical + ctDNA,0.575,0.9048
+Clinical + ctDNA,0.6,0.9048
+Clinical + ctDNA,0.625,0.95
+Clinical + ctDNA,0.65,0.95
+Clinical + ctDNA,0.675,0.95
+Clinical + ctDNA,0.7,0.9754
+Clinical + ctDNA,0.725,0.9754
+Clinical + ctDNA,0.75,0.9754
+Clinical + ctDNA,0.775,0.9754
+Clinical + ctDNA,0.8,0.9754
+Clinical + ctDNA,0.825,0.9754
+Clinical + ctDNA,0.85,0.9754
+Clinical + ctDNA,0.875,1
+Clinical + ctDNA,0.9,1
+Clinical + ctDNA,0.925,1
+Clinical + ctDNA,0.95,1
+Clinical + ctDNA,0.975,1
+Clinical + ctDNA,1,1
+Combined model,0,0
+Combined model,0.025,0.5859
+Combined model,0.05,0.6947
+Combined model,0.075,0.6976
+Combined model,0.1,0.7215
+Combined model,0.125,0.7215
+Combined model,0.15,0.7747
+Combined model,0.175,0.776
+Combined model,0.2,0.822
+Combined model,0.225,0.822
+Combined model,0.25,0.8378
+Combined model,0.275,0.8465
+Combined model,0.3,0.8771
+Combined model,0.325,0.8833
+Combined model,0.35,0.8833
+Combined model,0.375,0.906
+Combined model,0.4,0.906
+Combined model,0.425,0.906
+Combined model,0.45,0.906
+Combined model,0.475,0.91
+Combined model,0.5,0.91
+Combined model,0.525,0.913
+Combined model,0.55,0.913
+Combined model,0.575,0.913
+Combined model,0.6,0.9334
+Combined model,0.625,0.9334
+Combined model,0.65,0.9334
+Combined model,0.675,0.9507
+Combined model,0.7,0.9507
+Combined model,0.725,0.9613
+Combined model,0.75,0.9923
+Combined model,0.775,0.9923
+Combined model,0.8,0.9923
+Combined model,0.825,0.9923
+Combined model,0.85,0.9923
+Combined model,0.875,0.9923
+Combined model,0.9,0.9923
+Combined model,0.925,1
+Combined model,0.95,1
+Combined model,0.975,1
+Combined model,1,1

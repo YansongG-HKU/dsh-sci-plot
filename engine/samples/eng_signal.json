@@ -1,0 +1,21 @@
+{
+  "name_zh": "三通道示波器波形",
+  "name_en": "Three-channel oscilloscope traces",
+  "domain": "engineering",
+  "description_zh": "10 ms 内的三条通道（50 Hz、120 Hz + 瞬态、25 Hz 方波），适合多通道偏移波形与通道标签。",
+  "description_en": "Three channels over 10 ms (50 Hz, 120 Hz with a transient, 25 Hz square wave) for offset multi-channel waveforms.",
+  "mapping": {
+    "x": "time",
+    "y": "amplitude",
+    "group": "channel"
+  },
+  "recommended": [
+    {
+      "kind": "waveform",
+      "style": {
+        "domain": "engineering",
+        "journal": "ieee"
+      }
+    }
+  ]
+}

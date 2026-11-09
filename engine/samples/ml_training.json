@@ -1,0 +1,23 @@
+{
+  "name_zh": "多随机种子训练曲线",
+  "name_en": "Multi-seed training curves",
+  "domain": "ml",
+  "description_zh": "5 个随机种子的训练/验证交叉熵损失，含轻微过拟合转折。",
+  "description_en": "Train/validation cross-entropy for five random seeds with a mild overfitting turnover.",
+  "mapping": {
+    "x": "epoch",
+    "y": "loss",
+    "group": "split",
+    "seed": "seed"
+  },
+  "recommended": [
+    {
+      "kind": "training_curves",
+      "style": {
+        "domain": "ml",
+        "journal": "neurips"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

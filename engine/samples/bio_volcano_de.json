@@ -1,0 +1,28 @@
+{
+  "name_zh": "差异表达火山图数据",
+  "name_en": "Differential-expression volcano data",
+  "domain": "omics",
+  "description_zh": "模拟 900 个基因的 log2 倍数变化与 -log10 P，含 20 个显著上调/下调标记基因。",
+  "description_en": "Simulated log2 fold change and -log10 P for 900 genes with 20 curated up/down markers.",
+  "mapping": {
+    "x": "log2fc",
+    "y": "neglog10_p",
+    "label": "gene"
+  },
+  "recommended": [
+    {
+      "kind": "volcano",
+      "style": {
+        "domain": "omics",
+        "journal": "nature"
+      }
+    },
+    {
+      "kind": "ma",
+      "style": {
+        "domain": "omics"
+      }
+    }
+  ],
+  "source": "synthetic"
+}

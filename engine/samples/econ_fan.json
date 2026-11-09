@@ -1,0 +1,25 @@
+{
+  "name_zh": "通胀预测扇形图（50/80/95）",
+  "name_en": "Inflation fan chart (50/80/95)",
+  "domain": "economics",
+  "description_zh": "24 个月历史 + 24 个月预测的 CPI 通胀，含 50/80/95% 区间，适合分层置信带扇形图。",
+  "description_en": "24 months of history and 24 months of CPI-inflation forecast with 50/80/95% intervals for a layered fan chart.",
+  "mapping": {
+    "x": "month",
+    "y": "median",
+    "lower50": "lo50",
+    "upper50": "hi50",
+    "lower80": "lo80",
+    "upper80": "hi80",
+    "lower95": "lo95",
+    "upper95": "hi95"
+  },
+  "recommended": [
+    {
+      "kind": "fan_chart",
+      "style": {
+        "domain": "economics"
+      }
+    }
+  ]
+}
