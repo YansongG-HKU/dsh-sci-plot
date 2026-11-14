@@ -23,7 +23,7 @@ window.__ModuleLoader__.load({
     const NS = "dsh-sci-plot"
     const API_BASE = "/dsh-sci-plot"
     const REQ_HEADER = "x-dsh-sci-plot"
-    const VERSION = "1.2.0"
+    const VERSION = "1.2.2"
     const LANG_KEY = "dsh-sci-plot.lang"
 
     /** Artwork colours are fixed: they belong to the figure, not the theme. */

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2 — 2026-11-15
+
+- 对齐 DeepSeek Harness 0.2.2-rc.3：`engines.dsh` 提升至 `>=0.2.2-rc.3`，面板与 Host 版本号同步为 `1.2.2`；绘图引擎不变，73/73 测试通过。
+
 ## 1.2.1 — 2026-11-10
 
 - 合并同时进行的 Python 解释器探测和能力查询。显式刷新使旧任务失去回填缓存的资格，失败后可以重试。[Issue #1](https://github.com/YansongG-HKU/dsh-sci-plot/issues/1)
