@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3 — 2026-11-19
+
+- 对齐 DeepSeek Harness 0.2.2-rc.5：`engines.dsh` 提升至 `>=0.2.2-rc.5`，`lib/config.js` 的 `VERSION` 与面板构建产物同步为 `1.2.3`；绘图引擎不变，73/73 测试通过。
+
 ## 1.2.2 — 2026-11-15
 
 - 对齐 DeepSeek Harness 0.2.2-rc.3：`engines.dsh` 提升至 `>=0.2.2-rc.3`，面板与 Host 版本号同步为 `1.2.2`；绘图引擎不变，73/73 测试通过。
